@@ -16,15 +16,16 @@
 
         <ul class="px-4 px-lg-5 pt-2 list-unstyled flex-grow-1">
             <li class="mb-3"><a href="{{ route('admin.dashboard') }}"
-                    class="text-decoration-none text-secondary d-block">Dashboard</a></li>
-
+                    class="text-decoration-none text-secondary d-block">Dashboard</a>
+                </li>
         </ul>
 
-        <a href="{{ route('admin.profile.edit') }}" class="ps-5 pb-3 text-decoration-none text-dark d-block">Profilo</a>
+        <a href="{{ route('admin.profile.edit') }}" class="ps-5 pb-4 text-decoration-none text-first fw-bold d-block">Profilo</a>
+
         <div class="mt-auto ps-4 ps-lg-5 pb-5">
             <a class="text-decoration-none text-danger fw-bold" href="{{ route('logout') }}"
                 onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                {{ __('Logout') }}
+                Logout
             </a>
         </div>
         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
