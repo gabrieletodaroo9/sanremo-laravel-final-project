@@ -3,8 +3,8 @@
 @section('content')
 <div class="container-fluid py-5 px-lg-5 bg-main min-vh-100">
     
-    <div class="d-flex justify-content-between align-items-center mb-5">
-        <h1 class="h4 text-first text-uppercase display-6 fw-semibold m-0">Gestione Edizioni</h1>
+    <div class="d-flex justify-content-between align-items-center mb-5 border-bottom border-secondary pb-4">
+        <h1 class="h4 text-first text-uppercase display-6 fw-bold m-0">Gestione Edizioni</h1>
         <a href="{{ route('admin.editions.create') }}" class="btn btn-secondary shadow-sm">
             <i class="fas fa-plus"></i>
         </a>
