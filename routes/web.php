@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\ArtistController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\EditionController;
 use App\Http\Controllers\ProfileController;
@@ -14,6 +15,7 @@ Route::middleware('auth')
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
         Route::resource('editions', EditionController::class);    
+        Route::resource('artists', ArtistController::class);    
     });
 
 

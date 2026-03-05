@@ -84,7 +84,7 @@ class EditionController extends Controller
         $edition->host = $data["host"];
         $edition->location = $data["location"];
         $edition->co_hosts = $data["co_hosts"];
-        
+
         if (array_key_exists("logo_url", $data)) {
             if ($edition->logo_url) {
                 Storage::delete($edition->img_url);
@@ -101,11 +101,14 @@ class EditionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    
+
     public function destroy(Edition $edition)
     {
+        if ($edition->logo_url) {
+            Storage::delete($edition->logo_url);
+        }
         $edition->delete();
 
-        return redirect()->route('admin.editions.index')->with('success', 'Edizione eliminata correttamente.');
+        return redirect()->route('admin.editions.index');
     }
 }

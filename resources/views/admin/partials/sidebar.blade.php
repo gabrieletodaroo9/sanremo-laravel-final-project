@@ -23,6 +23,11 @@
                     <i class="fa-solid fa-champagne-glasses me-2"></i> Gestione edizioni
                 </a>
             </li>
+             <li class="mb-3">
+                <a href="{{ route('admin.artists.index') }}" class="text-secondary text-decoration-none">
+                    <i class="fa-solid fa-microphone me-2"></i> Gestione artisti
+                </a>
+            </li>
         </ul>
         <a href="{{ route('admin.profile.edit') }}" class="text-dark text-decoration-none fw-bold d-block mb-4">
             <i class="fa-solid fa-user me-2"></i> Profilo
