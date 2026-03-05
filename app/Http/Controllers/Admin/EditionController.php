@@ -60,9 +60,10 @@ class EditionController extends Controller
 
     public function show(Edition $edition)
     {
+        $edition->load('songs.artists');
+
         return view('admin.editions.show', compact('edition'));
     }
-
     /**
      * Show the form for editing the specified resource.
      */

@@ -1,4 +1,4 @@
-<div class="offcanvas-lg offcanvas-start col-lg-3 col-xl-2 bg-white shadow border-end" id="sidebarOffcanvas">
+<div class="offcanvas-lg offcanvas-start col-lg-3 col-xl-2 bg-white shadow border-end vh-100 sticky-top" id="sidebarOffcanvas">
 
     <div class="offcanvas-header d-lg-none border-bottom">
         <h5 class="m-0">Menu</h5>
@@ -26,6 +26,11 @@
              <li class="mb-3">
                 <a href="{{ route('admin.artists.index') }}" class="text-secondary text-decoration-none">
                     <i class="fa-solid fa-microphone me-2"></i> Gestione artisti
+                </a>
+            </li>
+            <li class="mb-3">
+                <a href="{{ route('admin.songs.index') }}" class="text-secondary text-decoration-none">
+                    <i class="fa-solid fa-music me-2"></i> Gestione canzoni
                 </a>
             </li>
         </ul>

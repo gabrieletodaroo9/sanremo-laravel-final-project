@@ -10,4 +10,9 @@ class Song extends Model
     {
         return $this->belongsTo(Edition::class);
     }
+
+    public function artists()
+    {
+        return $this->belongsToMany(Artist::class);
+    }
 }
