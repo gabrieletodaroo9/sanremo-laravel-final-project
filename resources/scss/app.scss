@@ -1,5 +1,14 @@
 @import '~bootstrap/scss/bootstrap';
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
 .text-first{
     color: #6B8DA9 ;
+}
+
+.bg-main{
+    background-color: #d2d7db;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
 }
