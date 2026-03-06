@@ -14,17 +14,22 @@
         @csrf
 
         <div class="row g-4 mb-4">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <label for="title" class="form-label small text-secondary text-uppercase fw-bold">Titolo Canzone</label>
                 <input type="text" name="title" id="title" class="form-control bg-dark text-light border-secondary" placeholder="Es: Brividi" required>
             </div>
 
-            <div class="col-md-2">
-                <label for="position" class="form-label small text-secondary text-uppercase fw-bold">Posizione</label>
+            <div class="col-md-4">
+                <label for="collaborators" class="form-label small text-secondary text-uppercase fw-bold">Collaboratori / Autori</label>
+                <input type="text" name="collaborators" id="collaborators" class="form-control bg-dark text-light border-secondary" placeholder="Es: Michelangelo">
+            </div>
+
+            <div class="col-md-1">
+                <label for="position" class="form-label small text-secondary text-uppercase fw-bold">Pos.</label>
                 <input type="number" name="position" id="position" class="form-control bg-dark text-light border-secondary" min="1" placeholder="Es: 1">
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <label for="edition_id" class="form-label small text-secondary text-uppercase fw-bold">Edizione / Anno</label>
                 <select name="edition_id" id="edition_id" class="form-select bg-dark text-light border-secondary" required>
                     <option value="" selected disabled>Scegli l'anno</option>
@@ -36,7 +41,6 @@
         </div>
 
         <div class="row g-4 mb-5">
-
             <div class="col-lg-4">
                 <label for="artists" class="form-label small text-secondary text-uppercase fw-bold">Artisti</label>
                 <select name="artists[]" id="artists" class="form-select bg-dark text-light border-secondary" multiple style="height: 380px;">

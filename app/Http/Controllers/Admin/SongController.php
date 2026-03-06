@@ -15,7 +15,7 @@ class SongController extends Controller
      */
     public function index()
     {
-        $editions = Edition::has('songs')->orderBy('year','desc')->get();
+        $editions = Edition::has('songs')->orderBy('year', 'desc')->get();
         return view('admin.songs.index', compact('editions'));
     }
 
@@ -42,6 +42,7 @@ class SongController extends Controller
         $newSong->edition_id = $data["edition_id"];
         $newSong->position = $data["position"] ?? null;
         $newSong->lyrics = $data["lyrics"];
+        $newSong->collaborators = $data['collaborators'] ?? null;
 
         $newSong->save();
 
@@ -86,6 +87,7 @@ class SongController extends Controller
         $song->edition_id = $data["edition_id"];
         $song->position = $data["position"] ?? null;
         $song->lyrics = $data["lyrics"];
+        $song->collaborators = $data['collaborators'] ?? null;
 
         $song->save();
 
@@ -102,11 +104,11 @@ class SongController extends Controller
      * Remove the specified resource from storage.
      */
     public function destroy(Song $song)
-{
-    $song->artists()->detach();
+    {
+        $song->artists()->detach();
 
-    $song->delete();
+        $song->delete();
 
-    return redirect()->route('admin.songs.index');
-}
+        return redirect()->route('admin.songs.index');
+    }
 }

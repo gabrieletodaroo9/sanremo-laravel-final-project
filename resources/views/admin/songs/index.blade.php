@@ -12,9 +12,9 @@
 
     <div class="accordion accordion-flush" id="accordionEditions">
         @foreach($editions as $edition)
-            <div class="accordion-item bg-transparent border-bottom border-secondary">
+            <div class="accordion-item bg-transparent border-bottom border-secondary-subtle ">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed bg-transparent text-light px-0 py-4 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdition{{ $edition->id }}">
+                    <button class="accordion-button collapsed bg-transparent text-light px-0 py-2 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdition{{ $edition->id }}">
                         <div class="d-flex align-items-center">
                             <div class="rounded-circle bg-dark border border-secondary me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <span class="fw-bold text-first">{{ substr($edition->year, -2) }}</span>
@@ -34,21 +34,20 @@
                                 <thead>
                                     <tr class="small text-secondary text-uppercase border-top border-secondary-subtle">
                                         <th class="py-3 bg-transparent" style="width: 80px;">Pos.</th>
-                                        <th class="py-3 bg-transparent">Canzone e Artista</th>
+                                        <th class="py-3 bg-transparent" style="width: 30%;">Canzone</th>
+                                        <th class="py-3 bg-transparent">Compositori</th>
                                         <th class="py-3 bg-transparent text-end">Azioni</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach($edition->songs->sortBy('position') as $song)
                                         <tr class="border-bottom border-secondary-subtle">
-                                            {{-- Posizione --}}
-                                            <td class="py-3 bg-transparent">
+                                            <td class="py-1 bg-transparent">
                                                 <span class="fw-bold {{ $song->position <= 3 && $song->position > 0 ? 'text-warning' : 'text-secondary' }}">
                                                     {{ $song->position ? $song->position . '°' : '-' }}
                                                 </span>
                                             </td>
                                             
-                                            {{-- Titolo e Artisti --}}
                                             <td class="py-3 bg-transparent">
                                                 <div class="fw-semibold text-first fs-5">{{ $song->title }}</div>
                                                 <div class="small text-secondary">
@@ -58,7 +57,12 @@
                                                 </div>
                                             </td>
 
-                                            {{-- Azioni --}}
+                                            <td class="py-3 bg-transparent">
+                                                <span class="small text-secondary opacity-75">
+                                                    {{ $song->collaborators ?? '-' }}
+                                                </span>
+                                            </td>
+
                                             <td class="py-3 bg-transparent text-end">
                                                 <div class="btn-group gap-3">
                                                     <a href="{{ route('admin.songs.show', $song) }}" class="text-secondary hover-first">
