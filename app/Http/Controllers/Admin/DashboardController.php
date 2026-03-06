@@ -18,7 +18,7 @@ class DashboardController extends Controller
     $artistsCount = Artist::count();
     $awardsCount = Award::count();
     $editionsCount = Edition::count();
-    $latestSongs = Song::orderBy('created_at', 'desc')->take(5)->get();
+    $latestSongs = Song::orderBy('created_at', 'desc')->take(3)->get();
 
     $searchResultsSongs = null;
     $searchResultsArtists = null;
