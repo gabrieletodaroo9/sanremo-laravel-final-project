@@ -13,17 +13,20 @@
     color: #6c757d;
 }
 
+#awards::-webkit-scrollbar,
 #artists::-webkit-scrollbar,
 #lyrics::-webkit-scrollbar {
     width: 8px;
 }
 
+#awards::-webkit-scrollbar-track,
 #artists::-webkit-scrollbar-track,
 #lyrics::-webkit-scrollbar-track {
     background: #1a1a1a;
     border-radius: 10px;
 }
 
+#awards::-webkit-scrollbar-thumb,
 #artists::-webkit-scrollbar-thumb,
 #lyrics::-webkit-scrollbar-thumb {
     background: #444;
@@ -31,6 +34,7 @@
     border: 2px solid #1a1a1a;
 }
 
+#awards::-webkit-scrollbar-thumb:hover,
 #artists::-webkit-scrollbar-thumb:hover,
 #lyrics::-webkit-scrollbar-thumb:hover {
     background: #b1a97d;

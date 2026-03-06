@@ -33,6 +33,11 @@
                     <i class="fa-solid fa-music me-2"></i> Gestione canzoni
                 </a>
             </li>
+             <li class="mb-3">
+                <a href="{{ route('admin.awards.index') }}" class="text-secondary text-decoration-none">
+                    <i class="fa-solid fa-music me-2"></i> Gestione premi
+                </a>
+            </li>
         </ul>
         <a href="{{ route('admin.profile.edit') }}" class="text-dark text-decoration-none fw-bold d-block mb-4">
             <i class="fa-solid fa-user me-2"></i> Profilo

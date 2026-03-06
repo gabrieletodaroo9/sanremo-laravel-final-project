@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\ArtistController;
+use App\Http\Controllers\Admin\AwardController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\EditionController;
 use App\Http\Controllers\Admin\SongController;
@@ -17,7 +18,8 @@ Route::middleware('auth')
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
         Route::resource('editions', EditionController::class);    
         Route::resource('artists', ArtistController::class);
-        Route::resource('songs', SongController::class);    
+        Route::resource('songs', SongController::class); 
+        Route::resource('awards', AwardController::class);   
     });
 
 

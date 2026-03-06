@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Artist;
+use App\Models\Award;
 use App\Models\Edition;
 use App\Models\Song;
 use Illuminate\Http\Request;
@@ -24,9 +25,10 @@ class SongController extends Controller
      */
     public function create()
     {
+        $awards = Award::all();
         $editions = Edition::orderBy('year', 'desc')->get();
         $artists = Artist::orderBy('name')->get();
-        return view('admin.songs.create', compact('editions', 'artists'));
+        return view('admin.songs.create', compact('editions', 'artists', 'awards'));
     }
 
     /**
@@ -49,6 +51,9 @@ class SongController extends Controller
         if (array_key_exists("artists", $data)) {
             $newSong->artists()->attach($data["artists"]);
         }
+        if (array_key_exists("awards", $data)) {
+            $newSong->awards()->attach($data["awards"]);
+        }
 
         return redirect()->route('admin.songs.index');
     }
@@ -58,7 +63,7 @@ class SongController extends Controller
      */
     public function show(Song $song)
     {
-        $song->load(['edition', 'artists']);
+        $song->load(['edition', 'artists', 'awards']);
 
         return view('admin.songs.show', compact('song'));
     }
@@ -67,12 +72,13 @@ class SongController extends Controller
      */
     public function edit(Song $song)
     {
+        $awards = Award::all();
         $editions = Edition::orderBy('year', 'desc')->get();
         $artists = Artist::orderBy('name')->get();
 
         $song->load('artists');
 
-        return view('admin.songs.edit', compact('song', 'editions', 'artists'));
+        return view('admin.songs.edit', compact('song', 'editions', 'artists', 'awards'));
     }
 
     /**
@@ -91,11 +97,8 @@ class SongController extends Controller
 
         $song->save();
 
-        if (array_key_exists("artists", $data)) {
-            $song->artists()->sync($data["artists"]);
-        } else {
-            $song->artists()->sync([]);
-        }
+        $song->artists()->sync($data["artists"] ?? []);
+        $song->awards()->sync($data["awards"] ?? []);
 
         return redirect()->route('admin.songs.index');
     }

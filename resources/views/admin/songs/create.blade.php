@@ -41,19 +41,31 @@
         </div>
 
         <div class="row g-4 mb-5">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <label for="artists" class="form-label small text-secondary text-uppercase fw-bold">Artisti</label>
                 <select name="artists[]" id="artists" class="form-select bg-dark text-light border-secondary" multiple style="height: 380px;">
                     @foreach($artists as $artist)
-                        <option value="{{ $artist->id }}">{{ $artist->name }} ({{ $artist->type }})</option>
+                        <option value="{{ $artist->id }}">{{ $artist->name }}</option>
                     @endforeach
                 </select>
                 <div class="form-text text-secondary mt-2 small">
-                    <i class="fa-solid fa-circle-info me-1"></i> Premi <strong>Ctrl</strong> per selezioni multiple.
+                    <i class="fa-solid fa-circle-info me-1"></i> Ctrl per selezioni multiple.
                 </div>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-3">
+                <label for="awards" class="form-label small text-secondary text-uppercase fw-bold">Premi Vinti</label>
+                <select name="awards[]" id="awards" class="form-select bg-dark text-light border-secondary" multiple style="height: 380px;">
+                    @foreach($awards as $award)
+                        <option value="{{ $award->id }}">{{ $award->name }}</option>
+                    @endforeach
+                </select>
+                <div class="form-text text-secondary mt-2 small">
+                    <i class="fa-solid fa-trophy me-1"></i> Seleziona i premi vinti.
+                </div>
+            </div>
+
+            <div class="col-lg-6">
                 <label for="lyrics" class="form-label small text-secondary text-uppercase fw-bold">Testo della Canzone</label>
                 <textarea name="lyrics" id="lyrics" class="form-control bg-dark text-light border-secondary" 
                           style="height: 380px; resize: none;" placeholder="Inserisci qui il testo del brano..."></textarea>

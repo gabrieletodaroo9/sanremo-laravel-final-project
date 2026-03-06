@@ -14,8 +14,9 @@
                 <h1 class="display-4 text-first text-uppercase fw-semibold m-0">{{ $song->title }}</h1>
                 <p class="text-secondary mb-0 text-uppercase small tracking-widest">
                     <i class="fa-solid fa-calendar-check me-2"></i>Sanremo {{ $song->edition->year }}
-                    @if($song->position)
-                        <span class="ms-3 text-first"><i class="fa-solid fa-trophy me-2"></i>{{ $song->position }}° Posto</span>
+                    @if ($song->position)
+                        <span class="ms-3 text-first"><i class="fa-solid fa-trophy me-2"></i>{{ $song->position }}°
+                            Posto</span>
                     @endif
                 </p>
             </div>
@@ -43,14 +44,15 @@
                     </div>
                 @endif
 
-                <div class="row g-4 mb-5">
-
+                <div class="row g-4 mb-4">
                     <div class="col-md-6">
                         <div class="px-2">
-                            <h5 class="text-uppercase fw-bold text-secondary mb-3 border-bottom border-secondary pb-2">Cantanti</h5>
+                            <h5 class="text-uppercase fw-bold text-secondary mb-3 border-bottom border-secondary pb-2">
+                                Cantanti</h5>
                             <div class="d-flex flex-wrap gap-2">
-                                @foreach($song->artists as $artist)
-                                    <span class="fs-5 text-first fw-bold">{{ $artist->name }}{{ !$loop->last ? ',' : '' }}</span>
+                                @foreach ($song->artists as $artist)
+                                    <span
+                                        class="fs-5 text-first fw-bold">{{ $artist->name }}{{ !$loop->last ? ',' : '' }}</span>
                                 @endforeach
                             </div>
                         </div>
@@ -58,7 +60,8 @@
 
                     <div class="col-md-6">
                         <div class="px-2">
-                            <h5 class="text-uppercase fw-bold text-secondary mb-3 border-bottom border-secondary pb-2">Compositori</h5>
+                            <h5 class="text-uppercase fw-bold text-secondary mb-3 border-bottom border-secondary pb-2">
+                                Compositori</h5>
                             <div class="fs-5 text-first fw-bold">
                                 {{ $song->collaborators ?? 'Nessun collaboratore inserito' }}
                             </div>
@@ -66,9 +69,28 @@
                     </div>
                 </div>
 
+                @if ($song->awards->count() > 0)
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <div class="px-2">
+                                <h5 class="text-uppercase fw-bold text-secondary mb-3 border-bottom border-secondary pb-2">
+                                    Riconoscimenti</h5>
+                                <div class="fs-5 text-first fw-bold italic text-uppercase">
+                                    <i class="fa-solid fa-trophy me-1 small opacity-75"></i>
+                                    @foreach ($song->awards as $award)
+                                        {{ $award->name }}{{ !$loop->last ? ' , ' : '' }}
+                                    @endforeach
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+
                 <div class="px-2 mt-5">
-                    <h5 class="text-uppercase fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">Testo Integrale</h5>
-                    <p class="fs-5 lh-lg text-muted opacity-75" style="white-space: pre-line; font-family: 'Georgia', serif;">
+                    <h5 class="text-uppercase fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">Testo
+                        Integrale</h5>
+                    <p class="fs-5 lh-lg text-muted opacity-75"
+                        style="white-space: pre-line; font-family: 'Georgia', serif;">
                         {{ $song->lyrics ?? 'Testo non disponibile.' }}
                     </p>
                 </div>
