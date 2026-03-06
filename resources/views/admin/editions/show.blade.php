@@ -3,9 +3,9 @@
 @section('content')
     <div class="container-fluid py-5 px-lg-5 bg-main min-vh-100 text-light">
 
-        <div class="d-flex justify-content-end align-items-center">
+        <div class="d-flex justify-content-end align-items-center mb-3">
             <a href="{{ route('admin.editions.index') }}" class="btn btn-outline-secondary btn-sm text-uppercase">
-                Torna alla lista
+                <i class="fa-solid fa-arrow-left me-2"></i>Torna alla lista
             </a>
         </div>
 
@@ -33,7 +33,7 @@
 
         <div class="row g-4">
             <div class="col-lg-4">
-                <div class="card bg-dark-subtle border-0 shadow text-light">
+                <div class="card bg-main border-0 text-light">
                     <div class="card-body p-4">
                         <h5 class="text-uppercase small fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">
                             Dettagli</h5>
@@ -43,58 +43,68 @@
                         </div>
                         <div class="mb-0">
                             <label class="d-block small text-secondary text-uppercase">Co-conduzione</label>
-                            <p class="mb-0 fw-bold fs-6 text-secondary">{{ $edition->co_hosts}}</p>
+                            <p class="mb-0 fw-bold fs-6 text-secondary">{{ $edition->co_hosts }}</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-8">
-    <div class="card bg-dark-subtle border-0 shadow text-light h-100">
-        <div class="card-body p-4">
-            <h5 class="text-uppercase small fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">
-                Brani in gara
-            </h5>
+                <div class="card bg-main border-0 text-light h-100">
+                    <div class="card-body p-4">
+                        <h5 class="text-uppercase small fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">
+                            Classifica Brani
+                        </h5>
 
-            @if ($edition->songs->count() > 0)
-                <div class="list-group list-group-flush">
-                    @foreach ($edition->songs as $song)
-                        <div class="list-group-item bg-transparent border-secondary-subtle px-0 py-3">
-                                <div>
-                                    <h6 class="text-first text-uppercase fw-bold mb-1">{{ $song->title }}</h6>
-                                    <p class="small text-secondary mb-0">
-                                        <i class="fa-solid fa-microphone-lines me-1 small"></i>
-                                        @foreach ($song->artists as $artist)
-                                            {{ $artist->name }}{{ !$loop->last ? ', ' : '' }}
-                                        @endforeach
-                                    </p>
-                                </div>
-                        </div>
-                    @endforeach
+                        @if ($edition->songs->count() > 0)
+                            <div class="list-group list-group-flush">
+                                @foreach ($edition->songs as $song)
+                                    <div class="list-group-item bg-transparent border-secondary-subtle px-0 py-3 d-flex align-items-center">
+                                        
+                                        <div class="me-4 d-flex justify-content-center align-items-center bg-first text-dark'" 
+                                             style="width: 40px; height: 40px; min-width: 40px; font-size: 1.1rem;">
+                                            {{ $song->position . '°' ?? '-' }}
+                                        </div>
+                                        
+                                        <div class="flex-grow-1">
+                                            <h6 class="text-first text-uppercase fw-bold mb-1">{{ $song->title }}</h6>
+                                            <p class="small text-secondary mb-0">
+                                                <i class="fa-solid fa-microphone-lines me-1 small"></i>
+                                                @foreach ($song->artists as $artist)
+                                                    {{ $artist->name }}{{ !$loop->last ? ', ' : '' }}
+                                                @endforeach
+                                            </p>
+                                        </div>
+
+                                        @if($song->position >= 1 && $song->position <= 3)
+                                            <div class="text-warning ms-3">
+                                                <i class="fa-solid fa-trophy fa-lg"></i>
+                                            </div>
+                                        @endif
+                                    </div>
+                                @endforeach
+                            </div>
+                        @else
+                            <div class="d-flex flex-column justify-content-center align-items-center py-5 h-100 opacity-50">
+                                <i class="fa-solid fa-music fa-3x mb-3"></i>
+                                <p class="small italic">Nessun brano in classifica per questa edizione.</p>
+                            </div>
+                        @endif
+                    </div>
                 </div>
-            @else
-                <div class="d-flex flex-column justify-content-center align-items-center py-5 h-100 opacity-50">
-                    <i class="fa-solid fa-music fa-3x mb-3"></i>
-                    <p class="small italic">Nessun brano collegato a questa edizione.</p>
-                </div>
-            @endif
-        </div>
-    </div>
-</div>
+            </div>
         </div>
     </div>
 
     <div class="modal fade" id="deleteModal{{ $edition->id }}" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-light text-light border-secondary">
+            <div class="modal-content bg-dark text-light border-secondary">
                 <div class="modal-body p-5 text-center">
                     <i class="fa-solid fa-circle-exclamation fa-3x text-danger mb-4"></i>
-                    <h4 class="mb-3 text-dark">Confermi l'eliminazione?</h4>
-                    <p class="text-secondary">L'edizione <strong>{{ $edition->year }}</strong> del festival di Sanremo
-                        verrà rimossa definitivamente dal database.</p>
+                    <h4 class="mb-3">Confermi l'eliminazione?</h4>
+                    <p class="text-secondary">L'edizione <strong>{{ $edition->year }}</strong> verrà rimossa definitivamente.</p>
                     <div class="d-flex justify-content-center gap-2 mt-4">
-                        <button type="button" class="btn btn-outline-secondary px-4"
-                            data-bs-dismiss="modal">Annulla</button>
+                        <button type="button" class="btn btn-outline-secondary px-4" data-bs-dismiss="modal">Annulla</button>
                         <form action="{{ route('admin.editions.destroy', $edition) }}" method="POST">
                             @csrf @method('DELETE')
                             <button type="submit" class="btn btn-danger px-4">Elimina</button>

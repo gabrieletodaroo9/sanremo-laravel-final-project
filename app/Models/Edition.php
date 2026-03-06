@@ -8,6 +8,6 @@ class Edition extends Model
 {
     public function songs()
     {
-        return $this->hasMany(Song::class);
+        return $this->hasMany(Song::class)->orderBy('position', 'asc');
     }
 }

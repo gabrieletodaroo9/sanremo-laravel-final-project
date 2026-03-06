@@ -40,12 +40,42 @@
                     </div>
                 @endif
 
-                <div class="px-2">
-                    <h5 class="text-uppercase fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">Biografia
-                    </h5>
+                <div class="px-2 mb-5">
+                    <h5 class="text-uppercase fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">Biografia</h5>
                     <p class="fs-5 lh-lg text-muted opacity-75">
-                        {{ $artist->bio }}
+                        {{ $artist->bio ?? 'Nessuna biografia disponibile.' }}
                     </p>
+                </div>
+
+                <div class="px-2 mb-5">
+                    <h5 class="text-uppercase fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">Brani al festival</h5>
+                    
+                    @if($artist->songs->count() > 0)
+                        <div class="list-group list-group-flush">
+                            @foreach($artist->songs->sortByDesc(function($song) { return $song->edition->year; }) as $song)
+                                <div class="list-group-item bg-transparent border-secondary py-3 px-0">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-6">
+                                            <h6 class="text-first text-uppercase fw-bold mb-1 fs-5">{{ $song->title }}</h6>
+                                            <span class="text-secondary small text-uppercase">Edizione {{ $song->edition->year }}</span>
+                                        </div>
+                                        <div class="col-md-3 text-md-center mt-2 mt-md-0">
+                                            <span class=" {{ $song->position <= 3 && $song->position > 0 ? 'text-warning' : ' text-secondary' }} px-3 py-2">
+                                                {{ $song->position ? $song->position . '° Posto' : 'Pos. non specificata' }}
+                                            </span>
+                                        </div>
+                                        <div class="col-md-3 text-end mt-2 mt-md-0">
+                                            <a href="{{ route('admin.songs.show', $song) }}" class="btn btn-sm btn-outline-secondary text-uppercase fw-bold">
+                                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    @else
+                        <p class="text-secondary italic">Nessuna canzone registrata per questo artista.</p>
+                    @endif
                 </div>
 
             </div>

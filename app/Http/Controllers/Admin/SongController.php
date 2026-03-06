@@ -15,8 +15,8 @@ class SongController extends Controller
      */
     public function index()
     {
-        $artists = Artist::has('songs')->with('songs.edition')->orderBy('name')->get();
-        return view('admin.songs.index', compact('artists'));
+        $editions = Edition::has('songs')->orderBy('year','desc')->get();
+        return view('admin.songs.index', compact('editions'));
     }
 
     /**
@@ -40,6 +40,7 @@ class SongController extends Controller
 
         $newSong->title = $data["title"];
         $newSong->edition_id = $data["edition_id"];
+        $newSong->position = $data["position"] ?? null;
         $newSong->lyrics = $data["lyrics"];
 
         $newSong->save();
@@ -83,6 +84,7 @@ class SongController extends Controller
 
         $song->title = $data["title"];
         $song->edition_id = $data["edition_id"];
+        $song->position = $data["position"] ?? null;
         $song->lyrics = $data["lyrics"];
 
         $song->save();

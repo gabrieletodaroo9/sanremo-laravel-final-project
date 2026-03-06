@@ -10,57 +10,59 @@
         </a>
     </div>
 
-    <div class="col-12">
-        <form action="{{ route('admin.songs.update', $song) }}" method="POST">
-            @csrf
-            @method('PUT')
+    <form action="{{ route('admin.songs.update', $song) }}" method="POST">
+        @csrf
+        @method('PUT')
 
-            <div class="row g-4 mb-4">
-                <div class="col-md-8">
-                    <label for="title" class="form-label small text-secondary text-uppercase fw-bold">Titolo Canzone</label>
-                    <input type="text" name="title" id="title" 
-                           class="form-control bg-dark text-light border-secondary" 
-                           value="{{ old('title', $song->title) }}" required>
-                </div>
-
-                <div class="col-md-4">
-                    <label for="edition_id" class="form-label small text-secondary text-uppercase fw-bold">Edizione / Anno</label>
-                    <select name="edition_id" id="edition_id" class="form-select bg-dark text-light border-secondary" required>
-                        @foreach($editions as $edition)
-                            <option value="{{ $edition->id }}" @selected(old('edition_id', $song->edition_id) == $edition->id)>
-                                Sanremo {{ $edition->year }}
-                            </option>
-                        @endforeach
-                    </select>
-                </div>
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <label for="title" class="form-label small text-secondary text-uppercase fw-bold">Titolo Canzone</label>
+                <input type="text" name="title" id="title" class="form-control bg-dark text-light border-secondary" value="{{ old('title', $song->title) }}" required>
             </div>
 
-            <div class="mb-4">
-                <label for="artists" class="form-label small text-secondary text-uppercase fw-bold">Artisti (Seleziona uno o più)</label>
-                <select name="artists[]" id="artists" class="form-select bg-dark text-light border-secondary" multiple style="height: 200px;">
+            <div class="col-md-2">
+                <label for="position" class="form-label small text-secondary text-uppercase fw-bold">Posizione</label>
+                <input type="number" name="position" id="position" class="form-control bg-dark text-light border-secondary" value="{{ old('position', $song->position) }}" min="1" placeholder="Es: 1">
+            </div>
+
+            <div class="col-md-4">
+                <label for="edition_id" class="form-label small text-secondary text-uppercase fw-bold">Edizione / Anno</label>
+                <select name="edition_id" id="edition_id" class="form-select bg-dark text-light border-secondary" required>
+                    @foreach($editions as $edition)
+                        <option value="{{ $edition->id }}" @if(old('edition_id', $song->edition_id) == $edition->id) selected @endif>
+                            Sanremo {{ $edition->year }}
+                        </option>
+                    @endforeach
+                </select>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <div class="col-lg-4">
+                <label for="artists" class="form-label small text-secondary text-uppercase fw-bold">Artisti</label>
+                <select name="artists[]" id="artists" class="form-select bg-dark text-light border-secondary" multiple style="height: 380px;">
                     @foreach($artists as $artist)
-                        <option value="{{ $artist->id }}" 
-                            @if($song->artists->contains($artist->id)) selected @endif>
+                        <option value="{{ $artist->id }}" @if($song->artists->contains($artist->id)) selected @endif>
                             {{ $artist->name }} ({{ $artist->type }})
                         </option>
                     @endforeach
                 </select>
-                <div class="form-text text-secondary mt-2">
-                    <i class="fa-solid fa-circle-info me-1"></i> Tieni premuto <strong>Ctrl</strong> (o <strong>Cmd</strong>) per modificare la selezione degli artisti.
+                <div class="form-text text-secondary mt-2 small">
+                    <i class="fa-solid fa-circle-info me-1"></i> Tieni premuto <strong>Ctrl</strong> per modificare la selezione.
                 </div>
             </div>
 
-            <div class="mb-5">
+            <div class="col-lg-8">
                 <label for="lyrics" class="form-label small text-secondary text-uppercase fw-bold">Testo della Canzone</label>
-                <textarea name="lyrics" id="lyrics" rows="12" class="form-control bg-dark text-light border-secondary" 
-                          placeholder="Inserisci qui il testo del brano...">{{ old('lyrics', $song->lyrics) }}</textarea>
+                <textarea name="lyrics" id="lyrics" class="form-control bg-dark text-light border-secondary" 
+                          style="height: 380px; resize: none;" placeholder="Inserisci qui il testo del brano...">{{ old('lyrics', $song->lyrics) }}</textarea>
             </div>
+        </div>
 
-            <div class="d-flex justify-content-end gap-3 pt-4 border-top border-secondary">
-                <a href="{{ route('admin.songs.index') }}" class="btn btn-outline-secondary px-4 text-uppercase fw-bold">Annulla</a>
-                <button type="submit" class="btn btn-secondary px-5 text-uppercase fw-bold">Aggiorna Canzone</button>
-            </div>
-        </form>
-    </div>
+        <div class="d-flex justify-content-end gap-3 pt-4 border-top border-secondary">
+            <a href="{{ route('admin.songs.index') }}" class="btn btn-outline-secondary px-4 text-uppercase fw-bold">Annulla</a>
+            <button type="submit" class="btn btn-secondary px-5 text-uppercase fw-bold shadow-sm">Aggiorna Canzone</button>
+        </div>
+    </form>
 </div>
 @endsection
