@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-
 class ArtistsTableSeeder extends Seeder
 {
 
@@ -659,6 +658,246 @@ Vincitore della categoria "Nuove Proposte" a Sanremo 2020 con il brano "Vai bene
             'img_url' => 'artists/images/HLMIszkmVp5y77Qh7GRpLbKI0xTMtw0a0DrOX1Qj.avif',
             'created_at' => '2026-03-06 01:19:26',
             'updated_at' => '2026-03-06 01:40:06',
+        ),
+        61 => 
+        array (
+            'id' => 64,
+            'name' => 'Angelina Mango',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:43:10',
+            'updated_at' => '2026-03-06 16:43:10',
+        ),
+        62 => 
+        array (
+            'id' => 65,
+            'name' => 'Geolier',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:43:15',
+            'updated_at' => '2026-03-06 16:43:15',
+        ),
+        63 => 
+        array (
+            'id' => 66,
+            'name' => 'Annalisa',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:43:26',
+            'updated_at' => '2026-03-06 16:43:26',
+        ),
+        64 => 
+        array (
+            'id' => 67,
+            'name' => 'Ghali',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:43:32',
+            'updated_at' => '2026-03-06 16:43:32',
+        ),
+        65 => 
+        array (
+            'id' => 69,
+            'name' => 'Loredana Bertè',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:44:33',
+            'updated_at' => '2026-03-06 16:44:33',
+        ),
+        66 => 
+        array (
+            'id' => 70,
+            'name' => 'Il Volo',
+            'type' => 'band',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:44:45',
+            'updated_at' => '2026-03-06 16:44:45',
+        ),
+        67 => 
+        array (
+            'id' => 71,
+            'name' => 'Alessandra Amoroso',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:44:55',
+            'updated_at' => '2026-03-06 16:44:55',
+        ),
+        68 => 
+        array (
+            'id' => 72,
+            'name' => 'Alfa',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:00',
+            'updated_at' => '2026-03-06 16:45:00',
+        ),
+        69 => 
+        array (
+            'id' => 73,
+            'name' => 'Gazzelle',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:05',
+            'updated_at' => '2026-03-06 16:45:05',
+        ),
+        70 => 
+        array (
+            'id' => 74,
+            'name' => 'Il Tre',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:11',
+            'updated_at' => '2026-03-06 16:45:11',
+        ),
+        71 => 
+        array (
+            'id' => 75,
+            'name' => 'Diodato',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:18',
+            'updated_at' => '2026-03-06 16:45:18',
+        ),
+        72 => 
+        array (
+            'id' => 76,
+            'name' => 'Emma',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:26',
+            'updated_at' => '2026-03-06 16:45:26',
+        ),
+        73 => 
+        array (
+            'id' => 77,
+            'name' => 'Fiorella Mannoia',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:34',
+            'updated_at' => '2026-03-06 16:45:34',
+        ),
+        74 => 
+        array (
+            'id' => 78,
+            'name' => 'Mr. Rain',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:45:46',
+            'updated_at' => '2026-03-06 16:45:46',
+        ),
+        75 => 
+        array (
+            'id' => 79,
+            'name' => 'Santi Francesi',
+            'type' => 'duetto',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:46:03',
+            'updated_at' => '2026-03-06 16:46:03',
+        ),
+        76 => 
+        array (
+            'id' => 80,
+            'name' => 'Negramaro',
+            'type' => 'band',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:46:21',
+            'updated_at' => '2026-03-06 16:46:21',
+        ),
+        77 => 
+        array (
+            'id' => 81,
+            'name' => 'Ricchi e Poveri',
+            'type' => 'band',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:46:42',
+            'updated_at' => '2026-03-06 16:46:42',
+        ),
+        78 => 
+        array (
+            'id' => 82,
+            'name' => 'BigMama',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:46:48',
+            'updated_at' => '2026-03-06 16:46:48',
+        ),
+        79 => 
+        array (
+            'id' => 83,
+            'name' => 'Nek',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:46:59',
+            'updated_at' => '2026-03-06 16:46:59',
+        ),
+        80 => 
+        array (
+            'id' => 84,
+            'name' => 'Mannini',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:47:09',
+            'updated_at' => '2026-03-06 16:47:09',
+        ),
+        81 => 
+        array (
+            'id' => 85,
+            'name' => 'La Sad',
+            'type' => 'band',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:47:16',
+            'updated_at' => '2026-03-06 16:47:16',
+        ),
+        82 => 
+        array (
+            'id' => 86,
+            'name' => 'Bnkr44',
+            'type' => 'band',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:47:33',
+            'updated_at' => '2026-03-06 16:47:33',
+        ),
+        83 => 
+        array (
+            'id' => 87,
+            'name' => 'Sangiovanni',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:47:39',
+            'updated_at' => '2026-03-06 16:47:39',
+        ),
+        84 => 
+        array (
+            'id' => 88,
+            'name' => 'Fred De Palma',
+            'type' => 'solista',
+            'bio' => NULL,
+            'img_url' => NULL,
+            'created_at' => '2026-03-06 16:47:48',
+            'updated_at' => '2026-03-06 16:47:48',
         ),
     ));
         
