@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+
 class ArtistSongTableSeeder extends Seeder
 {
 
@@ -752,6 +753,414 @@ class ArtistSongTableSeeder extends Seeder
                 'id' => 93,
                 'artist_id' => 88,
                 'song_id' => 91,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            92 => 
+            array (
+                'id' => 94,
+                'artist_id' => 4,
+                'song_id' => 33,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            93 => 
+            array (
+                'id' => 96,
+                'artist_id' => 89,
+                'song_id' => 93,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            94 => 
+            array (
+                'id' => 97,
+                'artist_id' => 90,
+                'song_id' => 94,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            95 => 
+            array (
+                'id' => 98,
+                'artist_id' => 78,
+                'song_id' => 95,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            96 => 
+            array (
+                'id' => 99,
+                'artist_id' => 91,
+                'song_id' => 96,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            97 => 
+            array (
+                'id' => 100,
+                'artist_id' => 92,
+                'song_id' => 97,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            98 => 
+            array (
+                'id' => 101,
+                'artist_id' => 40,
+                'song_id' => 98,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            99 => 
+            array (
+                'id' => 102,
+                'artist_id' => 93,
+                'song_id' => 99,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            100 => 
+            array (
+                'id' => 103,
+                'artist_id' => 94,
+                'song_id' => 100,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            101 => 
+            array (
+                'id' => 104,
+                'artist_id' => 46,
+                'song_id' => 101,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            102 => 
+            array (
+                'id' => 105,
+                'artist_id' => 95,
+                'song_id' => 102,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            103 => 
+            array (
+                'id' => 106,
+                'artist_id' => 56,
+                'song_id' => 103,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            104 => 
+            array (
+                'id' => 107,
+                'artist_id' => 96,
+                'song_id' => 104,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            105 => 
+            array (
+                'id' => 108,
+                'artist_id' => 44,
+                'song_id' => 105,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            106 => 
+            array (
+                'id' => 109,
+                'artist_id' => 97,
+                'song_id' => 106,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            107 => 
+            array (
+                'id' => 110,
+                'artist_id' => 18,
+                'song_id' => 107,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            108 => 
+            array (
+                'id' => 111,
+                'artist_id' => 98,
+                'song_id' => 108,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            109 => 
+            array (
+                'id' => 112,
+                'artist_id' => 99,
+                'song_id' => 109,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            110 => 
+            array (
+                'id' => 113,
+                'artist_id' => 36,
+                'song_id' => 110,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            111 => 
+            array (
+                'id' => 114,
+                'artist_id' => 37,
+                'song_id' => 111,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            112 => 
+            array (
+                'id' => 115,
+                'artist_id' => 100,
+                'song_id' => 112,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            113 => 
+            array (
+                'id' => 116,
+                'artist_id' => 101,
+                'song_id' => 113,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            114 => 
+            array (
+                'id' => 117,
+                'artist_id' => 102,
+                'song_id' => 114,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            115 => 
+            array (
+                'id' => 118,
+                'artist_id' => 22,
+                'song_id' => 115,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            116 => 
+            array (
+                'id' => 119,
+                'artist_id' => 4,
+                'song_id' => 116,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            117 => 
+            array (
+                'id' => 120,
+                'artist_id' => 103,
+                'song_id' => 117,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            118 => 
+            array (
+                'id' => 121,
+                'artist_id' => 104,
+                'song_id' => 118,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            119 => 
+            array (
+                'id' => 122,
+                'artist_id' => 105,
+                'song_id' => 119,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            120 => 
+            array (
+                'id' => 123,
+                'artist_id' => 106,
+                'song_id' => 120,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            121 => 
+            array (
+                'id' => 124,
+                'artist_id' => 107,
+                'song_id' => 121,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            122 => 
+            array (
+                'id' => 125,
+                'artist_id' => 108,
+                'song_id' => 122,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            123 => 
+            array (
+                'id' => 126,
+                'artist_id' => 43,
+                'song_id' => 123,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            124 => 
+            array (
+                'id' => 127,
+                'artist_id' => 87,
+                'song_id' => 124,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            125 => 
+            array (
+                'id' => 128,
+                'artist_id' => 76,
+                'song_id' => 125,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            126 => 
+            array (
+                'id' => 129,
+                'artist_id' => 109,
+                'song_id' => 126,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            127 => 
+            array (
+                'id' => 130,
+                'artist_id' => 57,
+                'song_id' => 127,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            128 => 
+            array (
+                'id' => 131,
+                'artist_id' => 35,
+                'song_id' => 128,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            129 => 
+            array (
+                'id' => 132,
+                'artist_id' => 110,
+                'song_id' => 130,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            130 => 
+            array (
+                'id' => 133,
+                'artist_id' => 111,
+                'song_id' => 131,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            131 => 
+            array (
+                'id' => 134,
+                'artist_id' => 41,
+                'song_id' => 133,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            132 => 
+            array (
+                'id' => 135,
+                'artist_id' => 47,
+                'song_id' => 134,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            133 => 
+            array (
+                'id' => 136,
+                'artist_id' => 3,
+                'song_id' => 135,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            134 => 
+            array (
+                'id' => 137,
+                'artist_id' => 112,
+                'song_id' => 135,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            135 => 
+            array (
+                'id' => 138,
+                'artist_id' => 61,
+                'song_id' => 136,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            136 => 
+            array (
+                'id' => 139,
+                'artist_id' => 113,
+                'song_id' => 137,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            137 => 
+            array (
+                'id' => 140,
+                'artist_id' => 114,
+                'song_id' => 138,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            138 => 
+            array (
+                'id' => 141,
+                'artist_id' => 116,
+                'song_id' => 140,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            139 => 
+            array (
+                'id' => 142,
+                'artist_id' => 117,
+                'song_id' => 141,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            140 => 
+            array (
+                'id' => 143,
+                'artist_id' => 118,
+                'song_id' => 142,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            141 => 
+            array (
+                'id' => 144,
+                'artist_id' => 119,
+                'song_id' => 143,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            142 => 
+            array (
+                'id' => 145,
+                'artist_id' => 92,
+                'song_id' => 144,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),

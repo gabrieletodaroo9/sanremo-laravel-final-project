@@ -69,6 +69,34 @@ class AwardsTableSeeder extends Seeder
                 'created_at' => '2026-03-06 16:00:12',
                 'updated_at' => '2026-03-06 16:00:12',
             ),
+            7 => 
+            array (
+                'id' => 10,
+                'name' => 'Premio "Enzo Jannacci"',
+                'created_at' => '2026-03-06 20:43:21',
+                'updated_at' => '2026-03-06 20:43:21',
+            ),
+            8 => 
+            array (
+                'id' => 11,
+                'name' => 'Premio "CoReCom"',
+                'created_at' => '2026-03-06 20:43:55',
+                'updated_at' => '2026-03-06 20:43:55',
+            ),
+            9 => 
+            array (
+                'id' => 12,
+                'name' => 'Premio Assomusica',
+                'created_at' => '2026-03-06 20:44:07',
+                'updated_at' => '2026-03-06 20:44:07',
+            ),
+            10 => 
+            array (
+                'id' => 13,
+            'name' => 'SoundiesAwards (miglior videoclip)',
+                'created_at' => '2026-03-06 23:12:30',
+                'updated_at' => '2026-03-06 23:12:30',
+            ),
         ));
         
         

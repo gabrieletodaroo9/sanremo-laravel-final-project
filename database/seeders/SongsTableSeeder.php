@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+
 class SongsTableSeeder extends Seeder
 {
 
@@ -5901,7 +5902,3119 @@ Ti ho fatta solo piangere, piangere',
                     'created_at' => '2026-03-06 17:09:22',
                     'updated_at' => '2026-03-06 17:09:22',
                 ),
-            ));
+                90 => 
+                array (
+                    'id' => 93,
+                    'edition_id' => 6,
+                    'title' => 'Due Vite',
+                    'collaborators' => 'M. Mengoni, D. Petrella e D. Simonetta',
+                    'position' => 1,
+                    'lyrics' => 'Siamo i soli svegli in tutto l\'universo
+E non conosco ancora bene il tuo deserto
+Forse è in un posto del mio cuore dove il sole è sempre spento
+Dove a volte ti perdo, ma se voglio ti prendo
+Siamo fermi in un tempo così, che solleva le strade
+Con il cielo ad un passo da qui, siamo i mostri e le fate
+Dovrei telefonarti, dirti le cose che sento
+Ma ho finito le scuse e non ho più difese
+Siamo un libro sul pavimento in una casa vuota che sembra la nostra
+Il caffè col limone contro l\'hangover, sembri una foto mossa
+E ci siamo fottuti ancora una notte fuori un locale
+E meno male
+Se questa è l\'ultima canzone e poi la luna esploderà
+Sarò lì a dirti che sbagli, ti sbagli e lo sai
+Qui non arriva la musica
+E tu non dormi e dove sarai? Dove vai?
+Quando la vita poi esagera
+Tutte le corse, gli schiaffi, gli sbagli che fai
+Quando qualcosa ti agita
+Tanto lo so che tu non dormi, dormi, dormi, dormi, dormi mai
+Che giri fanno due vite
+Siamo i soli svegli in tutto l\'universo
+A gridare un po\' di rabbia sopra un tetto
+Che nessuno si sente così
+Che nessuno li guarda più i film
+I fiori nella tua camera
+La mia maglia metallica
+Siamo un libro sul pavimento in una casa vuota che sembra la nostra
+Persi tra le persone, quante parole senza mai una risposta
+E ci siamo fottuti ancora una notte fuori un locale
+E meno male
+Se questa è l\'ultima canzone e poi la luna esploderà
+Sarò lì a dirti che sbagli, ti sbagli e lo sai
+Qui non arriva la musica
+E tu non dormi e dove sarai? Dove vai?
+Quando la vita poi esagera
+Tutte le corse, gli schiaffi, gli sbagli che fai
+Quando qualcosa ti agita
+Tanto lo so che tu non dormi
+Spegni la luce anche se non ti va
+Restiamo al buio avvolti solo dal suono della voce
+Al di là della follia che balla in tutte le cose
+Due vite, guarda che disordine
+Se questa è l\'ultima (canzone e poi la luna esploderà) canzone
+Sarò lì a dirti che sbagli, ti sbagli e lo sai
+Qui non arriva la musica
+Tanto lo so che tu non dormi, dormi, dormi, dormi, dormi mai
+Che giri fanno due vite
+Due vite',
+                    'created_at' => '2026-03-06 21:17:18',
+                    'updated_at' => '2026-03-06 21:17:18',
+                ),
+                91 => 
+                array (
+                    'id' => 94,
+                    'edition_id' => 6,
+                    'title' => 'Cenere',
+                    'collaborators' => 'Lazza, D. Petrella e Dardust',
+                    'position' => 2,
+                    'lyrics' => 'Ho paura di non riconoscerti mai più non credo più alle favole
+So che ho un posto ma non qui
+Tra le tue grida in loop
+Corro via su una Cabriolet
+Di noi resteranno soltanto ricordi confusi
+Pezzi di vetro
+Mi spegni le luci se solo tieni gli occhi chiusi
+Mi rendi cieco
+Ti penso con me per rialzarmi
+Sto silenzio potrebbe ammazzarmi
+Aiutami a sparire come cenere
+Mi sento un nodo alla gola, nel buio balli da sola
+Spazzami via come cenere
+Ti dirò cosa si prova
+Tanto non vedevi l’ora, ma verrai via con me
+Ho visto un paio di Inferni alla volta
+So che vedermi così ti impressiona
+Primo in classifica ma non mi importa
+Mi sento l’ultimo come persona
+L’ultima volta che ho fatto un pronostico
+È andata a finire che mi sono arreso
+Sai che detesto che citi l’oroscopo
+Ma non sai quanto con me ci abbia preso
+Ti prego abbassa la voce o da sta casa ci cacciano proprio
+Ormai nemmeno facciamo l’amore
+Direi piuttosto che facciamo l’odio
+Ora ti sento distante io schifo il mondo
+E tu guardi
+Cercavo una verità che è sempre in mano ai bugiardi
+Aiutami a sparire come cenere
+Mi sento un nodo alla gola, nel buio balli da sola
+Spazzami via come cenere
+Ti dirò cosa si prova, tanto non vedevi l’ora
+Puoi cancellare il mio nome, farmi sparire nel fumo
+Come un pugnale nel cuore, come se fossi nessuno
+Via come cenere, cenere
+Vorrei che andassi via lontana da me, ma sei la terapia
+Rinasceremo insieme dalla cenere
+Mi sento un nodo alla gola, nel buio balli da sola
+Bella che mi sembri Venere
+Scendi che il tempo non vola, sono qua sotto da un’ora
+Tu sei più calda del Sole, io invece freddo Mercurio
+Lasciamo quelle parole, dimenticate nel buio
+Via come cenere, cenere',
+                    'created_at' => '2026-03-06 21:19:06',
+                    'updated_at' => '2026-03-06 21:19:06',
+                ),
+                92 => 
+                array (
+                    'id' => 95,
+                    'edition_id' => 6,
+                    'title' => 'Supereroi',
+                    'collaborators' => 'Mr. Rain, F. Abbate e L. Vizzini',
+                    'position' => 3,
+                    'lyrics' => 'Non puoi combattere una guerra da solo
+Il cuore è un\'armatura
+Ci salva ma si consuma
+A volte chiedere aiuto ci fa paura
+Ma basta un solo passo come il primo uomo sulla luna
+Perché da fuori non si vede quante volte hai pianto
+Si nasce soli e si muore nel cuore di qualcun altro
+Siamo angeli con un\'ala soltanto e riusciremo a volare
+Solo restando l\'uno accanto all\'altro
+Camminerò
+A un passo da te
+E fermeremo il vento come dentro agli uragani
+Supereroi
+Come io e te
+Se avrai paura allora stringimi le mani
+Perché siamo invincibili, vicini
+E ovunque andrò sarai con me
+Supereroi
+Solo io e te
+Due gocce di pioggia
+Che salvano il mondo dalle nuvole
+Ci sono ferite che non se ne vanno nemmeno col tempo
+Più profonde di quello che sembrano
+Guariscono sopra la pelle, ma in fondo ti cambiano dentro
+Ho versato così tante lacrime fino ad odiare me stesso
+Ma ogni volta che ho toccato il fondo
+Tu c\'eri lo stesso
+Oh-oh-oh-oh, oh-oh-oh
+Quando siamo distanti
+Ogni volta che piangi, piange pure il cielo
+Oh-oh-oh-oh
+Non ho molto da darti ma ti giuro che
+Camminerò
+A un passo da te
+E fermeremo il vento come dentro agli uragani
+Supereroi
+Come io e te
+Se avrai paura allora stringimi le mani
+Perché siamo invincibili, vicini
+E ovunque andrò sarai con me
+Supereroi
+Solo io e te
+Due gocce di pioggia
+Che salvano il mondo
+Mi basta un attimo e capisco che ogni cicatrice tua è anche mia
+Mi basta un attimo per dirti che con te ogni posto è casa mia
+Perché siamo invincibili, vicini
+E ovunque andrò sarai con me
+Supereroi
+Solo io e te
+Due gocce di pioggia che salvano il mondo dalle nuvole
+Camminerò
+A un passo da te
+E fermeremo il vento come dentro agli uragani
+Supereroi
+Come io e te
+Se avrai paura allora stringimi le mani
+Perché siamo invincibili, vicini
+E ovunque andrò sarai con me
+Supereroi
+Solo io e te
+Due gocce di pioggia
+Che salvano il mondo dalle nuvole',
+                    'created_at' => '2026-03-06 21:19:59',
+                    'updated_at' => '2026-03-06 21:19:59',
+                ),
+                93 => 
+                array (
+                    'id' => 96,
+                    'edition_id' => 6,
+                    'title' => 'Alba',
+                    'collaborators' => 'Ultimo',
+                    'position' => 4,
+                    'lyrics' => 'Amo l’alba perché è come fosse solo mia
+Mi rilassa respirare l’aria pure tua
+Amo l’alba perché è come fosse una bugia
+Mi rilassa quanto basta, ma tu poi vai via
+E t’immagini se fossimo al di là dei nostri limiti,
+Se stessimo di fianco alle abitudini
+E avessimo più cura di quei lividi?
+Saremmo certo più distanti, ma più simili
+E avremmo dentro noi perenni brividi
+T’immagini se tutto questo fosse la realtà?
+Amo l’alba perché spesso odio la vita mia
+Camminando senza meta in questa strana via
+Amo l’alba perché è come una sana follia
+Puoi capirla se la senti e non mandarla via
+E t’immagini se tutto stesse sopra i nostri limiti
+E credessimo ai sorrisi come i comici,
+Se non dovessimo parlare per conoscerci,
+Se non amassimo soltanto i nostri simili?
+Forse avremmo gli occhi solo per descriverci
+Perché uno sguardo, in fondo, basta per dipingerci
+Quando vivi un giorno bello ridi e pensami
+Ho ascoltato i miei silenzi e ho avuto i brividi
+Perché dentro un mio respiro sei tu che abiti
+E quando vivi un giorno bello ridi e pensami
+A me basta solo questo per non perderti,
+Ma t’immagini se tutto questo fosse la realtà?',
+                    'created_at' => '2026-03-06 21:21:01',
+                    'updated_at' => '2026-03-06 21:21:01',
+                ),
+                94 => 
+                array (
+                    'id' => 97,
+                    'edition_id' => 6,
+                    'title' => 'Tango',
+                    'collaborators' => 'Tananai, P. Antonacci, A. Raina e D. Simonetta',
+                    'position' => 5,
+                    'lyrics' => 'Non c\'è un amore senza una ragazza che pianga
+Non c\'è più telepatia
+È un\'ora che ti aspetto
+Non volevo dirtelo al telefono
+Eravamo da me, abbiamo messo i Police
+Era bello finché ha bussato la police
+Tu, fammi tornare alla notte che ti ho conosciuta
+Così non ti offro da bere e non ti ho conosciuta
+Ma ora addio, va bene amore mio
+Non sei di nessun altro
+E di nessuna io
+Lo so quanto ti manco
+Ma chissà perché Dio
+Ci pesta come un tango
+E ci fa dire
+Amore tra le palazzine a fuoco
+La tua voce riconosco
+Noi non siamo come loro
+È bello, è bello, è bello
+È bello stare così
+Davanti a te in ginocchio
+Sotto la scritta al neon di un sexy shop
+Se amarsi dura più di un giorno
+È meglio, è meglio
+È meglio che non rimani qui
+Io tornerò un lunedì
+Come si salva un amore se è così distante
+È finita la poesia
+È un anno che mi hai perso
+È quel che sono, non volevo esserlo
+Eravamo da me, abbiamo messo i Police
+Ridevamo di te che mi sparivi nei jeans
+Tu, fammi tornare alla notte che ti ho conosciuta
+Così non ti offro da bere e non ti ho conosciuta
+Ma ora addio, va bene amore mio
+Non sei di nessun altro
+E di nessuna io
+Lo so quanto ti manco
+Ma chissà perché Dio
+Ci pesta come un tango
+E ci fa dire
+Amore tra le palazzine a fuoco
+La tua voce riconosco
+Noi non siamo come loro
+È bello, è bello, è bello
+È bello stare così
+Davanti a te in ginocchio
+Sotto la scritta al neon di un sexy shop
+Se amarsi dura più di un giorno
+È meglio, è meglio
+È meglio che non rimani qui
+Io tornerò un lunedì
+Ma non è mai lunedì
+Qui non è mai lunedì
+Amore, tra le palazzine a fuoco
+La tua voce riconosco
+Noi non siamo come loro
+È meglio, è meglio
+È meglio che non rimani qui
+Io tornerò un lunedì
+Ma non è mai lunedì',
+                    'created_at' => '2026-03-06 21:21:45',
+                    'updated_at' => '2026-03-06 21:21:45',
+                ),
+                95 => 
+                array (
+                    'id' => 98,
+                    'edition_id' => 6,
+                    'title' => 'Parole dette male',
+                    'collaborators' => 'A. Bianco, F. Roccati, M. Dagani e M. M. G. Fracchiolla',
+                    'position' => 6,
+                    'lyrics' => 'Ogni tanto ti vedo in giro
+Ma poi non sei tu
+E quante macchine come la tua
+Dello stesso blu
+La mia pelle è il mio foglio bianco
+E ci scrivo su
+Pensieri brevi lunghi una vita
+Forse di più
+Non sei più un mio ricordo, sei un\'allucinazione
+Chiudo ancora i miei occhi quando sento il tuo nome
+Il cielo che crolla giù e io non ragiono più
+E tu alla fine eri una bella canzone
+La prima fuga al mare in moto d\'estate
+Le tue risate e fare i cretini nei prati
+Andare a dormire ancora bagnati
+Alla fine eri una bella canzone
+Che non si può ascoltare a ripetizione, maledizione
+Ricordo le ultime parole
+Quelle dette male, maledette
+Ci sono cose che non ho deciso
+Tipo cosa farò
+Galleggiare senza direzione
+Finché mi ritroverai
+Ogni volta che vedo il mare
+Io cresco un po\'
+Qualcuno ha messo il tuo stesso profumo
+Cambia il colore al pomeriggio però
+È un pensiero profondo come un capello biondo
+Conficcato là in testa che mi dice che il mondo
+Ora non esiste più e io non ragiono più
+E tu alla fine eri una bella canzone
+La prima fuga al mare in moto d\'estate
+Le tue risate e fare i cretini nei prati
+Andare a dormire ancora bagnati
+Alla fine eri una bella canzone
+Che non si può ascoltare a ripetizione, maledizione
+Ricordo le ultime parole
+Quelle dette male, maledette
+Non tutto è finto nei film, la realtà forse sì
+Non tutto è finto nei film, la realtà
+E tu alla fine eri una bella canzone
+Tutta la luce, l\'alba che brucia le mie paure
+Eri una bella canzone, maledizione
+La mia maledizione
+E tu alla fine eri una bella emozione
+Che non si può provare a ripetizione (la mia canzone)
+Ricordo le ultime parole
+Quelle dette male, maledette',
+                    'created_at' => '2026-03-06 21:22:39',
+                    'updated_at' => '2026-03-06 21:22:39',
+                ),
+                96 => 
+                array (
+                    'id' => 99,
+                    'edition_id' => 6,
+                    'title' => 'Il bene nel male',
+                    'collaborators' => 'Madame, N. Biasin e I. Sinigaglia',
+                    'position' => 7,
+                    'lyrics' => 'Ti ho rivisto dopo
+Tanto, tanto, tanto, tanto tempo
+E come previsto tu eri
+Tanto, tanto, tanto, tanto bello come un tempo
+Hai cominciato a parlare
+Mi aspettavo un "Mi mancavi"
+Invece hai parlato
+Tanto, tanto, tanto, tanto
+Tanto amore quello che ti ho dato
+Se la memoria non mi inganna
+Quanto ti sei ingarbugliato
+Nel pensare che ti volessi male
+E nelle tue idee
+Alla fine hai sbottato, hai detto
+"Guarda tanto, tanto, tanto, tanto
+Amore, tu sei
+Sei l\'errore più cattivo che ho commesso nella vita
+Amore, tu sei
+Sei lo sbaglio più fatale che ho commesso nella vita
+Amore, tu sei
+Sei la prova che gli errori sono fatti per rifarli
+Ancora tu sei
+La puttana che ha ridato un senso ai giorni miei"
+Nel bene e nel male
+Sei bene e sei male
+Bebe, nel bene e nel male
+Fai bene e fai male
+Quanto bene e male
+Nel bene e nel male
+A me resta il bene, a te resta il male
+Non male per me
+Non sono nemmeno
+Un dolce ricordo
+A me è rimasto il rimpianto
+A te soltanto il rimorso
+E ho paura di te
+Ho sempre avuto paura di te
+Non ti ho mai dato il cuore
+Già sapevo che sarebbe stato un grosso sbaglio
+Il cuore va tenuto dentro al petto per potere ancora respirare
+L\'amore è solamente di chi prova amore
+Non è di chi lo riceve
+E io che l\'ho provato ad ogni tocco tuo
+Posso dire che a me è rimasto
+Il bene, a te il male
+A me il bene, a te il male
+Bebe, nel bene e nel male
+Fai bene e fai male
+Quanto bene e male
+Nel bene e nel male
+A me resta il bene, a te resta il male
+Tu mi hai saputo solamente dire
+"Amore, amore, amore, tu sei
+Sei l\'errore più cattivo che ho commesso nella vita
+Amore, tu sei
+Sei lo sbaglio più fatale che ho commesso nella vita
+Amore, tu sei
+Sei la prova che gli errori sono fatti per rifarli
+Ancora tu sei
+La puttana che ha ridato un senso ai giorni miei"
+Dopo tanto, tanto, tanto, tanto tempo
+Era tanto, tanto, tanto, tanto tempo
+Dopo tanto, tanto, tanto, tanto tempo
+Era tanto
+L\'unico sei tu con cui ho fatto l\'amore
+Facendo l\'amore, amore, tra tutti
+Hai pagato il mio corpo a parole, parole dolci
+Sarò una puttana, ma sei peggio di me
+Perché di tutto quello che ti ho dato
+Potevi tenerti tanto, tanto, tanto
+Di quel bene nel male
+Di bene nel male
+Bebe, di bene nel male
+Di bene nel male
+Un po\' di bene (bene) nel male (male)
+Di bene (bene) nel male (male)
+Da chi ti è dato non è importante
+È sempre del bene, nel male, amore',
+                    'created_at' => '2026-03-06 21:23:34',
+                    'updated_at' => '2026-03-06 21:23:34',
+                ),
+                97 => 
+                array (
+                    'id' => 100,
+                    'edition_id' => 6,
+                    'title' => 'Made in Italy',
+                    'collaborators' => 'Rosa Chemical, P. Antonacci, O. Inglese e D. Simonetta',
+                    'position' => 8,
+                    'lyrics' => 'Damn, fratello, ma siamo l\'Italia anche oggi
+La stiamo salvando
+Vai Bdope, fammi sentire quanto sei italiano
+Dimmi come si fa
+A restare fedeli
+Sex boy ma non parlo americano
+Per i tuoi il sono il tipico italiano
+Uh ah
+Tu sai che non è la cosa giusta
+Finchè la vicina non ci bussa
+Finchè non sente le urla
+Uh ah
+Maaa (ahh)
+Le canzoni d\'amore
+Sono meglio stonate
+Te le canto così
+Ai ai ai ai ai
+Nel momento piccante
+Ti messaggia l\'amante
+Ma va bene così
+Ti piace
+Che sono perverso e non mi giudichi
+Se metterò il rossetto in ufficio lunedì
+Da due passiamo a tre
+Più siamo e meglio è
+Ci dicono di no
+E adesso ci lasciate fare
+Il sesso (made in Italy)
+L\'amore (made in Italy)
+Il sogno (made in Italy)
+La storia (made in Italy)
+Sono un bravo cristiano
+Ma non sono cristiano
+Tu vuo\' fa l\'americano
+Io voglio morire da italiano
+Io voglio una vita come Vasco
+Stringere la mano a Celentano
+Ti voglio nuda col calzino bianco
+L\'uomo vitruviano
+Io sono il tuo Leonardo
+E a ma ma marama
+Sì le piaccio (eh)
+E pa pa parapa
+Non gli piaccio
+A te, te, te piace un altro
+E okay
+Nel mio letto c\'è spazio
+Maaa
+Le canzoni d\'amore
+Sono meglio stonate
+Te le canto così
+Ai ai ai ai ai
+Nel momento piccante
+Ti messaggia l\'amante
+Ma va bene così
+Ti piace
+Che sono perverso e non mi giudichi
+Se metterò il rossetto in ufficio lunedì
+Da due passiamo a tre
+Più siamo e meglio è
+Ci dicono di no
+E adesso ci lasciate fare
+Il sesso (made in Italy)
+L\'amore (made in Italy)
+Il sogno (made in Italy)
+La storia (made in Italy)
+Ehm, babababadibubum
+Babababadibubum
+Badabadabidababa badibubum
+Babababadibubum
+Hey sexy lady
+Babababadibubum
+Badabadabidababa badibubum
+ti piace
+Che sono perverso e non mi giudichi
+Se metterò il rossetto in ufficio lunedì
+Da due passiamo a tre
+Più siamo e meglio è
+Ci dicono di no
+E adesso ci lasciate fare
+Il sesso (made in Italy)
+L\'amore (made in Italy)
+Il sogno (made in Italy)
+La storia (made in Italy)
+La festa (made in Italy)
+La voglia (made in Italy)
+I piedi (made in Italy)
+L\'Italia (made in Italy)',
+                        'created_at' => '2026-03-06 21:24:19',
+                        'updated_at' => '2026-03-06 21:24:19',
+                    ),
+                    98 => 
+                    array (
+                        'id' => 101,
+                        'edition_id' => 6,
+                        'title' => 'Due',
+                        'collaborators' => 'Elodie, F. Abbate, J. Ettorre e F. Catitti',
+                        'position' => 9,
+                        'lyrics' => 'Cosa c\'è?
+C\'è che mi fai agitare
+Cosa ti aspetti se
+Sai già come va a finire?
+Nascoste dal velo più sottile
+Tutte le mie paure
+Che anche stanotte si avvolgono su di te
+È solo un brivido a volte
+Ma \'sto periodo non è facile
+Tu vuoi una donna che non c\'è
+E se ci pensi il nostro amore è nato appena
+Ma è già finito male
+E se a quest\'ora mi cerchi, perdonami
+Dimmi, "Come mai?"
+Baby, mi fulmini con gli occhi lucidi
+Che rumore fa il silenzio alla fine
+Di tutte le nostre telefonate interrotte?
+Sapessi dirti basta ma il cuore danza
+Per me le cose sono due
+Lacrime mie o lacrime tue
+Le cose sono due
+Due
+Solamente tu
+Una coltellata ogni parola
+Solamente io
+Nei discorsi sulla bocca della gente
+Forse è vero, è tardi adesso
+Ma lo rifarei lo stesso
+Con gli stessi errori, lo rifarei
+Che se ci pensi il nostro amore è nato appena
+Ma è già finito male
+E se a quest\'ora mi cerchi, perdonami
+Dimmi, "Come mai?"
+Baby, mi fulmini con gli occhi lucidi
+Che rumore fa il silenzio alla fine
+Di tutte le nostre telefonate interrotte?
+Sapessi dirti basta ma il cuore danza
+Per me le cose sono due
+Lacrime mie o lacrime tue
+Le cose sono due
+Due
+Ah
+Sei il vino che mi ubriaca
+La mia nota stonata
+Parolacce sotto casa
+Ah, ah, ah
+In questa notte amara
+Dagli occhi cade il Niagara
+Mi accorgo ancora di te, eh, eh
+E se a quest\'ora mi cerchi, perdonami
+Dimmi, "Come mai?"
+Baby, mi fulmini con gli occhi lucidi
+Che rumore fa il silenzio alla fine
+Di tutte le nostre telefonate interrotte?
+Sapessi dirti basta ma il cuore danza
+Per me le cose sono due
+Lacrime mie o lacrime tue
+Le cose sono due
+Due
+Per me le cose sono due
+Lacrime mie o lacrime tue
+Le cose sono due
+Due',
+                        'created_at' => '2026-03-06 21:24:59',
+                        'updated_at' => '2026-03-06 21:24:59',
+                    ),
+                    99 => 
+                    array (
+                        'id' => 102,
+                        'edition_id' => 6,
+                        'title' => 'Splash',
+                        'collaborators' => 'Colapesce e Dimartino',
+                        'position' => 10,
+                        'lyrics' => 'Campi sconfinati che si arrendono alla sera
+Qualche finestra accesa
+Mentre il vento arpeggia
+Una ringhiera
+Tu vivresti qui per sempre
+Dici che dovrei staccare un po\' la mente
+Ma io
+Ma io lavoro
+Per non stare con te
+Preferisco il rumore delle metro affollate
+A quello del mare
+Ma che mare, ma che mare
+Meglio soli su una nave
+Per non sentire il peso delle aspettative
+Travolti dall\'immensità del blu
+Vorrei svegliarmi più tardi al mattino
+Cambiare vita baciarti nel grano
+In Sudamerica
+Ma l\'entusiasmo poi se ne va
+Questa sera mi nascondo
+Mentre i miei pensieri
+Vanno per il mondo
+Ma io
+Ma io lavoro
+Per non stare con te
+Preferisco il rumore delle metro affollate
+A quello del mare
+Ma che mare, ma che mare
+Meglio soli su una nave
+Per non sentire il peso delle aspettative
+Travolti dall\'immensità del blu
+Sorrido alle Seychelles
+Mi annoio a Panama
+La vita è un baccarat
+Balliamo, vieni qua
+Perdonami
+Non ci capisco mai
+Mi dici lascia stare
+Sono qua
+Ma io
+Io
+Ma io lavoro
+Per non stare con te
+Preferisco il rumore dei cantieri infiniti
+A quello del mare
+Ma che mare, ma che mare
+Come stronzi galleggiare
+Per non sentire il peso delle aspettative
+Vado via senza te
+Mi tuffo nell\'immensità del blu
+Splash',
+                        'created_at' => '2026-03-06 21:25:40',
+                        'updated_at' => '2026-03-06 21:25:40',
+                    ),
+                    100 => 
+                    array (
+                        'id' => 103,
+                        'edition_id' => 6,
+                        'title' => 'Lasciami',
+                        'collaborators' => 'F. Silvestre e E. Palmosi',
+                        'position' => 11,
+                        'lyrics' => 'Lasciami
+Ma regalami un giorno
+Lasciami
+Quando poi farà buio e vai via di nascosto
+Lasciami
+Solo un po\' di profumo e un bicchiere con dentro un ricordo
+Mettici un bacio e veleno con ghiaccio
+Lasciami
+Ma fallo in silenzio
+Lasciami
+Ma ti prego fai in modo che non me ne accorga
+Ma che giorno è?
+È il primo giorno senza te
+Ho bevuto il veleno e ho capito la parte peggiore di me
+Ma che giorno è?
+È il primo giorno senza te
+Ho bevuto il tuo bacio e ho sentito la parte migliore di te
+Quella che mi mancherà
+Quella che non scorderò
+Lasciami
+Ma regalami un sogno
+Lasciami
+Con la nostra canzone e un bicchiere con dentro un tramonto
+Mettici un bacio e veleno con ghiaccio
+Lasciami
+Ma non farmi capire
+Lasciami
+Col pudore di chi vuole piangere ore
+Ma che giorno è?
+È il primo giorno senza te
+Ho bevuto il veleno e ho capito la parte peggiore di me
+Ma che giorno è?
+È il primo giorno senza te
+Ho bevuto il tuo bacio e ho sentito la parte migliore di te
+Quella che mi mancherà
+Quella che non scorderò
+Ma che giorno è?
+È il primo giorno senza te
+Ho bevuto il tuo bacio e ho sentito la parte migliore di te
+Quella che mi mancherà
+Quella che non scorderò mai',
+                        'created_at' => '2026-03-06 21:26:20',
+                        'updated_at' => '2026-03-06 21:26:20',
+                    ),
+                    101 => 
+                    array (
+                        'id' => 104,
+                        'edition_id' => 6,
+                        'title' => 'Quando ti manca il fiato',
+                        'collaborators' => 'G. Grignani ed E. Melozzi',
+                        'position' => 12,
+                        'lyrics' => 'Mio padre tornava la sera
+Ed era forte quando era in vena
+Questo lo ricordo bene
+Sì questo lo ricordo bene
+Mio padre era uno dei tanti
+Ma era il mio eroe quando mi sorrideva
+Vivevamo ancora insieme
+Questo lo ricordo bene
+E poi, non ricordo più
+Dopo vent\'anni dalla terra dei ricordi
+Mi chiamano
+(Mi chiamano)
+Spaccando in due il silenzio
+Con uno squillo del telefono
+Ciao sono papà
+Come va Gianluca?
+Ma no che non sto male
+Ma quando accadrà
+Tu verrai o no al mio funerale
+Tu verrai o no?
+Ed io non ho parlato più
+Ho tenuto tutto dentro
+E ho messo giù
+Poi ci ho pensato su
+Sì ci ho pensato su
+Ciao papà o addio papà
+Io ti perdono
+Le mie lacrime sono sincere
+Ma c\'è chi non lo farà
+Tu accettala la verità
+E in mezzo a chi finge cordoglio
+Sarò il tuo orgoglio
+Perché chi ha troppa libertà
+Non ha parole
+Quando fa male ma male davvero
+Sono coltelli che cadon dal cielo
+Fan sanguinare anche l\'uomo più duro
+Anche se son cresciuto da solo
+A modo mio
+Sì e tu sai a modo mio
+Ciao papà o addio papà
+Questa canzone te la canto adesso
+Perché tu sappia che ti amo lo stesso
+E per il resto ognuno giudichi se stesso
+Questa è l\'unica legge
+Che conosco e rispetto
+Ti ricordi quando ti dicevo
+Che la vita chiede i conti al passato
+Proprio quando ti manca il fiato
+E chi sa la verità
+Mi dica perché faccio fatica a staccare le dita
+Oh oh
+A smettere di suonare
+Quando la musica è finita
+È questo che devo imparare... da te
+Forse non volevi o me lo hai insegnato?
+Non fare accordi con i ricordi
+Quando ti manca il fiato',
+                        'created_at' => '2026-03-06 21:27:09',
+                        'updated_at' => '2026-03-06 21:27:09',
+                    ),
+                    102 => 
+                    array (
+                        'id' => 105,
+                        'edition_id' => 6,
+                        'title' => 'L\'addio',
+                        'collaborators' => 'F. Zanardelli, F. Mesiano, F. Dalè e C. Frigerio',
+                        'position' => 13,
+                        'lyrics' => 'Essere veri quanto può far male
+Quando non è concesso litigare
+Per non deludere le aspettative
+Dopo sei anni di diapositive
+Nel camerino il pianto cola il trucco
+Restare zitti per non maledirsi
+Come un silenzio che racconta tutto
+La cicatrice quando togli il piercing
+Davanti al mio cuore c\'è una ringhiera
+Sul tuo che è sempre stato uno strapiombo
+Lo sai che mi è piaciuto anche caderci
+Sì, però mica puoi toccare il fondo
+Magari è solo questa vita strana
+Con le valigie sempre mezze fatte
+Magari è solo che ci si allontana
+Se si vuole ciò che si combatte
+E sparirò ma tu promettimi che
+Potrò sempre ritornare da te
+Se mi dimentico me, com\'ero
+Quando l\'orgoglio era ancora intero
+E comunque andrà
+L\'addio non è una possibilità
+E forse arriverà davvero il giorno
+In cui diventerai solo un ricordo
+O ce ne andremo via come uno stormo
+Che con l\'autunno poi farà ritorno
+Quel tempo trascorso, non puoi cancellarlo
+Ti resta sul volto
+Sarò come quel fumo che disegna sul muro
+La cornice che hai tolto
+C\'era una foto dove ci guardiamo (yeah)
+Gli occhi felici dopo i giorni brutti
+Ed ogni tanto lo dimentichiamo
+Ma il nostro fuoco lo hanno visto tutti
+Forse diventeremo due stranieri
+In viaggio su respiri più leggeri
+Chissà se piloti o passeggeri
+E sparirò ma tu promettimi che
+Potrò sempre ritornare da te
+Se mi dimentico me, com\'ero
+Quando l\'orgoglio era ancora intero
+E sparirai ma tu promettimi che
+Vorrai sempre ritornare da me
+Se ti dimentichi te, com\'eri
+Quando non c\'ero tra i tuoi pensieri
+E comunque andrà
+L\'addio non è una possibilità
+Non è una possibilità',
+                        'created_at' => '2026-03-06 21:27:58',
+                        'updated_at' => '2026-03-06 21:27:58',
+                    ),
+                    103 => 
+                    array (
+                        'id' => 106,
+                        'edition_id' => 6,
+                        'title' => 'Mare di guai',
+                        'collaborators' => 'Ariete, Calcutta, Dardust e V. Centrella',
+                        'position' => 14,
+                        'lyrics' => 'Tu, tu eri più bella di me
+E adesso che il letto è vuoto e la casa in silenzio ho paura a dormire
+Perse, noi perse senza un perché
+E c\'è una torre di piatti che aspetta in cucina
+E una foto di te sotto il mio cuscino
+E vorrei sapere che si prova se resti
+Non voglio più perderti nel chiaro di luna
+Ci siamo incontrate dentro momenti pessimi
+Tutto ciò che amo mi fa sempre paura
+Uniamo i respiri, sento caldo la mattina
+Tu buttati con me, mare di guai
+Non so nuotare in una vasca
+Piena di squali, piena di squali
+Vestiti da sera c\'è il mio pezzo preferito
+E buttati, che la notte è solo un giorno che riposa e ci incontriamo
+Ci cerchiamo nelle strade e nei silenzi di un cielo blu
+Sai, sai, sai prenderti gioco di me
+Di quel giardino che ho dentro, annaffiavi il cemento
+Io ti vorrei dire (io ti vorrei dire)
+Che vorrei sapere che si prova se resto
+Non voglio più perderti nel chiaro di luna
+Ci siamo incontrate dentro momenti pessimi
+Tutto ciò che amo mi fa sempre paura
+Uniamo i respiri, sento caldo la mattina
+Tu buttati con me, mare di guai
+Non so nuotare in una vasca
+Piena di squali, piena di squali
+Vestiti da sera, c\'è il mio pezzo preferito
+E buttati, che la notte è solo un giorno che riposa e ci incontriamo
+Ci cerchiamo nelle strade e nei silenzi di un cielo blu
+È lunedì, la luna sembra un po\' arrabbiata
+Come mai stanotte non sei più tornata?
+Sono qui con la finestra spalancata
+Forse ho perso, forse ho perso
+Uniamo i respiri, senti che caldo stamattina
+Tu buttati con me, mare di guai
+Non so nuotare in una vasca
+Piena di squali, piena di squali
+Vestiti da sera c\'è il mio pezzo preferito
+E buttati, che la notte è solo un giorno che riposa e ci incontriamo
+Ci cerchiamo nelle strade e nei silenzi di un cielo blu',
+                        'created_at' => '2026-03-06 21:29:04',
+                        'updated_at' => '2026-03-06 21:29:04',
+                    ),
+                    104 => 
+                    array (
+                        'id' => 107,
+                        'edition_id' => 6,
+                        'title' => 'Se poi domani',
+                        'collaborators' => 'LDA, F. D\'Alessio e A. Caiazza',
+                        'position' => 15,
+                        'lyrics' => 'Circondata dagli specchi
+E ti giuro sei bella da ogni prospettiva
+Tu che disegni i silenzi a matita è così
+Che ti senti capita
+Vorrei abbracciarti ma mentre dormi
+Così da unire tutti i nostri sogni
+Immaginare che le notti insonni
+Siano delle ore regalate a noi
+Che siamo angeli
+Ti prego ascoltami
+Quelle immagini
+Continuano ad uccidermi
+Oh oh dammi le mani
+Ma solo se tu rimani
+Sai penso a te
+Sai io penso che
+Io non dormirò più come prima
+Oh oh dimmi che mi ami
+Io non so se poi domani
+Verrai da me se verrai da me
+O sarai solo un\'altra bugia
+E mi manca disegnare con lei sulla spiaggia
+Due iniziali in un cuore di sabbia
+Che ormai non ci son più
+Come non ci sei tu
+Eravamo angeli
+Ti prego ascoltami
+Queste immagini
+Continuano ad uccidermi
+Oh oh dammi le mani
+Ma solo se tu rimani
+Sai penso a te
+Sai io penso che
+Io non dormirò più come prima
+Oh oh dimmi che mi ami
+Io non so se poi domani
+Verrai da me se verrai da me
+O sarai solo un\'altra bugia
+Voglio darti il mio mondo se mi dai un secondo dirò
+Solo che in fondo ti amo
+E la notte poi piango per riempire il vuoto
+Oh oh dammi le mani
+Ma solo se tu rimani
+Sai penso a te
+Sai io penso che
+Io non dormirò più come prima
+Oh oh dimmi che mi ami
+Io non so se poi domani
+Verrai da me se verrai da me
+O sarai solo un\'altra bugia
+Un\'altra bugia',
+                        'created_at' => '2026-03-06 21:29:45',
+                        'updated_at' => '2026-03-06 21:29:45',
+                    ),
+                    105 => 
+                    array (
+                        'id' => 108,
+                        'edition_id' => 6,
+                        'title' => 'Un bel viaggio',
+                        'collaborators' => 'J-Ax, Grido, F. Abbate, DJ Jad, Wlady, A. Colangelo e D. Silvestri',
+                        'position' => 16,
+                        'lyrics' => 'Com\'eravamo belli
+In queste vecchie foto
+Due martelli anche se non battevamo chiodo
+Io e te scappati da un quartiere velenoso
+A differenza loro abbiamo trasformato
+L\'eternit in oro
+Là, dove scegli o lavori per due spicci
+O spacci pezzi
+Per noi era una miniera di diamanti grezzi
+Vestiti larghi, amici stretti
+Avevamo la visione anche senza farci i funghetti
+La fantasia viaggiava
+Celebrità da strada
+Ma ai nostri non bastava
+Come la busta paga
+Non volevamo una storia italiana
+Con la prima che ci sta
+Che metti incinta e ci metti su casa
+Non volevamo crescere
+Ma è successo tutto a un tratto
+E fai tutte le cose che
+Giuravi non avresti fatto
+Anche morire giovani non puoi più perché
+Adesso c\'hai la family e dipende da te
+Non volevamo crescere
+Che ansia e stress
+Però è un bel viaggio
+Poi ce l\'abbiamo fatta
+All\'inizio era una pacchia
+Come Frank Sinatra con la Mafia
+Ma poi diventa un lavoro e il lavoro diventa ansia
+Tipo che ti senti solo a mandare avanti la baracca
+Poi darsi il cinque
+Ma senza guardarsi in faccia
+Solo perché squadra che vince non si cambia
+Ma se sei in gabbia prima o poi scoppi di rabbia
+Come un bimbo che si porta la palla
+Vaffanculo basta
+Così che dopo abbiamo scritto il manuale su
+Come trasformare un socio in un rivale
+Su come misurare vita e successo
+Che se a me va male godo perché a te va peggio
+Non volevamo crescere
+Ma è successo tutto a un tratto
+E fai tutte le cose che
+Giuravi non avresti fatto
+Anche morire giovani non puoi più perché
+Adesso c\'hai la family e dipende da te
+Non volevamo crescere
+Che ansia e stress
+Però è un bel viaggio
+Che viaggio
+E poi
+Ci siamo odiati davvero
+Lei t\'ha lasciato e ridevo
+Tua mamma è volata in cielo
+E al funerale non c\'ero
+Un uomo è come il vino
+Il tempo lo impreziosisce
+Invece quello cattivo
+Invecchiando si inacidisce
+Quindi che l\'orgoglio si fotta
+Siamo stati due coglioni infatti funzioniamo in coppia
+Nella vita gli amici li scegli
+Noi siamo quelli
+Che si vogliono bene anche quando si fanno la guerra
+Come i fratelli
+Non volevamo crescere
+Ma è successo tutto a un tratto
+E fai tutte le cose che
+Giuravi non avresti fatto
+Anche morire giovani non puoi più perché
+Adesso c\'hai la family e dipende da te
+Non volevamo crescere
+Che ansia e stress
+Però è un bel viaggio',
+                        'created_at' => '2026-03-06 21:30:23',
+                        'updated_at' => '2026-03-06 21:30:23',
+                    ),
+                    106 => 
+                    array (
+                        'id' => 109,
+                        'edition_id' => 6,
+                        'title' => 'Furore',
+                        'collaborators' => 'J. Ettorre, A. La Cava, P. Iezzi, C. Iezzi, F. Mercuri, G. Cremona, L. Grillotti ed E. Maimone',
+                        'position' => 17,
+                        'lyrics' => 'La pista non è più buia
+E l\'ansia con te si annulla
+La musica muove
+La sola illusione
+Di averti con me
+Non dici niente però
+Dentro ai tuoi occhi
+C\'è un fuoco, una strobo
+Un riflesso di noi
+E tutti i colori di questa città
+In questa notte di sole
+Furore, furore
+Amarsi e fare rumore
+Nel mio respiro tu
+Senza fermarci più
+Ballare, ancora ballare
+Come se fosse l\'ultima
+Se fosse l\'ultima canzone
+Furore con te
+Con te
+Adesso che il cuore scoppia
+Per la strada nella folla
+È un arcobaleno
+Io non so fare a meno
+Di averti con me
+Non dici niente però
+Nei nostri sguardi
+C\'è un gioco, una strobo
+Un riflesso di noi
+Che ferma il tempo, che non se ne va
+In questa notte di sole
+Furore, furore
+Amarsi e fare rumore
+Nel mio respiro tu
+Senza fermarci più
+Ballare, ancora ballare
+Come se fosse l\'ultima
+Se fosse l\'ultima canzone
+Furore con te
+Con te
+E due milioni di parole non bastano
+Per dirti cosa sei per me
+E tutto quello che ci serve è in un battito
+Un battito, battito, battito
+In questa notte di sole
+Furore, furore
+Amarsi e fare rumore
+Nel mio respiro tu
+Senza fermarci più
+Ballare, ancora ballare
+Come se fosse l\'ultima
+Se fosse l\'ultima canzone
+Furore con te
+Con te',
+                        'created_at' => '2026-03-06 21:31:05',
+                        'updated_at' => '2026-03-06 21:31:05',
+                    ),
+                    107 => 
+                    array (
+                        'id' => 110,
+                        'edition_id' => 6,
+                        'title' => 'Terzo cuore',
+                        'collaborators' => 'R. Zanotti, L. Gassmann, G. Pesenti e M. Paganelli',
+                        'position' => 18,
+                        'lyrics' => 'Quando mi hai letto la mano
+Ci hai visto mille problemi e mille guai
+Dovevi starmi lontano
+Ma mi hai risposto che tu non scappi mai
+Ci siam lasciati e ripresi
+Come i trapezisti del Cirque Du Soleil
+Ma non ci siamo mai arresi
+Abbiamo contato le stelle come fossero nei
+Di una storia straordinaria quanto incasinata
+Quando ci concederemo un po\' di acqua passata
+Come fanno i buoni amici
+O le strade di Parigi
+Per sentirsi meglio
+So che hai riso quando ho detto che io ho
+Tre cuori dentro al petto
+Ma ora no, non so quale inseguirò
+Perché mi sembra inutile
+E sai che uno lo uso per ridere i giorni di festa
+Il secondo mi fa tener duro nel mare in tempesta
+E l\'ultimo mio cuore devo costringerlo a dimenticarsi il tuo nome
+Non vuole
+Maledetto terzo cuore
+Penso di avere talento
+Per trasformar le sfide in sfighe ormai
+Non so più cosa sento, no
+E guardo solamente serie crime
+Mi illuderò che ci sia un colpevole per ogni male, eh
+Sì, però è una bugia perché spesso le cose succedono e amen
+Era una storia straordinaria quanto incasinata
+Quando ci concederemo un po\' di acqua passata
+Come fanno i buoni amici
+O le strade di Parigi
+Per sentirsi meglio
+So che hai riso quando ho detto che io ho
+Tre cuori dentro al petto
+Ma ora no, non so quale inseguirò
+Perché mi sembra inutile
+E sai che uno lo uso per ridere i giorni di festa
+Il secondo mi fa tener duro nel mare in tempesta
+E l\'ultimo mio cuore devo costringerlo a dimenticarsi il tuo nome
+Non vuole
+Maledetto terzo cuore
+Non mi importa di avere ragione se poi resto sempre da solo
+Meglio avere torto con te (con te)
+Forse voli in un cielo migliore ma giuro che non ti abbandono
+Sei il mio terzo cuore
+So che hai riso quando ho detto che io ho
+Tre cuori dentro al petto
+Ma ora no, non so quale inseguirò
+Perché mi sembra inutile
+E sai che uno lo uso per ridere i giorni di festa
+Il secondo mi fa tener duro nel mare in tempesta
+E l\'ultimo mio cuore devo costringerlo a dimenticarsi il tuo nome
+Non vuole
+Maledetto terzo cuore',
+                        'created_at' => '2026-03-06 21:31:40',
+                        'updated_at' => '2026-03-06 21:31:40',
+                    ),
+                    108 => 
+                    array (
+                        'id' => 111,
+                        'edition_id' => 6,
+                        'title' => 'Duemilaminuti',
+                        'collaborators' => 'D. David, D. Mattei ed E. Brun',
+                        'position' => 19,
+                        'lyrics' => 'Ti chiamerei anche se non prende
+Ti cercherei dove non si vede
+Dovesse rimanermi niente
+E non importa se fa male
+A piedi scalzi sulla neve
+Non ho paura di cadere
+Pensavo di poter guarire il tuo cuore da tutte le voci che senti
+Però il risultato non cambia nemmeno se cambi gli addendi
+Pensavo di poter usare la voce ma dentro di me ora la voce non c\'è
+Ed ho usato duemila minuti per capire di me in fondo cosa pensi
+Ho trovato solo la rabbia, forse siamo troppo diversi
+Ho capito che non era amore ma soltanto un gioco che avevi creato per me
+E dimmi se c\'è stato amore tra quelle parole
+E poi dammi duemila minuti, anzi duemila ore
+E tu che senza volerlo mi hai insegnato a respirare
+E poi sei scappato ed hai rubato tutta la mia voce
+Tutta la mia voce
+Io mi ricordo quando ritornavi a casa stanco
+E sotterravi i tuoi problemi dentro fiumi d\'alcool
+E ogni volta mi dicevi che la colpa era la mia
+Non ti importava di distruggere i nostri momenti
+Lividi sopra il mio corpo erano solo i segni
+Che quel male che ti porti non andrà più via
+Pensavo di poter guardare le cose da un punto di vista diverso
+Però il tuo riflesso non cambia
+Non entri mai nel mio universo
+Pensavo di poter usare la voce ma dentro di me ora la voce non c\'è
+Ed ho usato duemila minuti per capire che in fondo tu eri diverso
+Cercassi nel buio le ombre o l\'aria nel mare blu intenso
+Ho capito che non era amore ma soltanto un posto che avevi creato per me
+E dimmi se c\'è stato amore tra quelle parole
+E poi dammi duemila minuti, anzi duemila ore
+Tu che senza volerlo mi hai insegnato a respirare
+Poi sei scappato ed hai rubato tutta la mia voce
+Tutta la mia voce
+Ma dimmi se c\'è stato amore tra quelle parole, tra quelle parole
+E poi dammi duemila minuti, anzi duemila ore, anzi duemila ore
+Tu che senza volerlo mi hai insegnato a respirare
+Poi sei scappato ed hai rubato tutta la mia voce
+Tutta la mia voce',
+                        'created_at' => '2026-03-06 21:32:28',
+                        'updated_at' => '2026-03-06 21:32:28',
+                    ),
+                    109 => 
+                    array (
+                        'id' => 112,
+                        'edition_id' => 6,
+                        'title' => 'Non mi va',
+                        'collaborators' => 'T. Bernasconi, T. Manzoni, A. Arminio, A. Malatesta, F. Lamperti e G. Pesenti',
+                        'position' => 20,
+                        'lyrics' => 'Non voglio stare male, eh
+Cos\'hanno più di me? (Di me)
+Non voglio stare male, male, male
+Ci sono quelli che puliscono i cessi
+Poi c\'è chi fa sesso, chi wrestling, gli onesti (uuh-uuh)
+Molti che prendono in giro se stessi (ma-ma-ma)
+Ma tu non sei nessuna di questi (aah)
+Tu sei come tabacco, io matto, uno scacco
+Sai bene che ti chiamo solo quando ho voglia (lo sai bene che)
+Ci ripetiamo perché siamo la storia
+Dici troppo, "Che noia" (che, che noia) e ti rovini la forma
+Faccio la fine del topo se gioco e lo sapevo
+Ti voglio e non ti chiedo di più, ma come si fa
+Mi piace la tua bocca e "La spada nella roccia"
+Mi chiamano Artù all\'università
+Sei la fine ad est, Piazza Tienanmen
+Ho una scia di passi sull\'oceano
+Ogni tanto c\'è un altro che sfiora i tuoi sensi
+Resta qui un\'altra notte con me
+Io sto male, male, male
+Se non so dove sei, se mi pensi
+Ogni tanto c\'è un altro che sfiora i tuoi sensi ma (non mi va)
+Il mare ti indirizza alla Savana
+Lei mi dice che non vuol dire come si chiama
+Mollo solo quando non sono più a mollo
+Faccio pause per farmi pensare (e stare okay)
+Vuoi più fare quella cosa se non puoi, vuoi sapere se non sai
+Non mi va, yeah, yeah
+Bi-bi-bimba, sai che la mia lingua è un mitra
+Parlo male e ti mordi le dita
+Non ho fame finché sei sfinita, minchia
+Ma che sesso mi fai, ma che sesso mi fai
+Ogni tanto c\'è un altro che sfiora i tuoi sensi
+Resta qui un\'altra notte con me
+Io sto male, male, male
+Se non so dove sei, se mi pensi
+Ogni tanto c\'è un altro che sfiora i tuoi sensi ma
+Non mi va
+Non voglio stare male
+Cos\'hanno più di me? (cos\'hanno, cos\'anno)
+Non voglio stare male, male, male
+Non voglio stare male
+Cos\'hanno più di me?
+Non voglio stare male, male, male
+Non voglio stare male
+Cos\'hanno più di me?
+Non voglio stare male, male, male',
+                        'created_at' => '2026-03-06 21:33:24',
+                        'updated_at' => '2026-03-06 21:33:24',
+                    ),
+                    110 => 
+                    array (
+                        'id' => 113,
+                        'edition_id' => 6,
+                        'title' => 'Lettera 22',
+                        'collaborators' => 'V. Lucchesi, D. Mangiaracina e F. Gargiulo',
+                        'position' => 21,
+                        'lyrics' => 'Io non sono altro che un bambino che non sa contare
+E vorrebbe dirti che gli manchi senza le parole
+Io non sono altro che un dottore che si è fatto male
+Io non sono altro che un palazzo in costruzione e cade
+Se mi guardi con quegli occhi, amore, mi farai morire
+Io non sono altro che una storia che non sa finire
+Io non sono altro che un giardino senza neanche un fiore
+Io senza di te non sono altro che la parola "amore"
+E con questo, amore, tornerei a dirti che ci vuole altro
+Per convincermi a rinchiuderti dentro un singhiozzo
+Altro per lasciarmi in un riflesso dentro a uno specchio
+E non era mai il momento giusto
+E non era mai il momento giusto per parlare
+Non lasciarmi solo
+Non lasciarmi qui
+Non lasciarmi solo
+Non lasciarmi qui
+Ora che ho trovato le parole già mi salta il petto
+Come treni in corsa tra le nuvole uno spazio altro
+Come due uragani che distruggono ma per dispetto
+Credo, credo anch\'io, che non puoi darmi il mondo
+Se non guardi il mondo come lo guardo anch\'io
+Non lasciarmi solo
+Non lasciarmi qui
+Non lasciarmi solo
+Non lasciarmi qui
+Non lasciarmi solo
+Non lasciarmi qui
+Non lasciarmi solo
+Non lasciarmi qui',
+                        'created_at' => '2026-03-06 21:34:06',
+                        'updated_at' => '2026-03-06 21:34:06',
+                    ),
+                    111 => 
+                    array (
+                        'id' => 114,
+                        'edition_id' => 6,
+                        'title' => 'Mostro',
+                        'collaborators' => 'Gianmaria, G. Manilardi, V. Petrozzino, A. Filippelli e V. Centrella',
+                        'position' => 22,
+                        'lyrics' => 'Ti ho baciato sulla fronte, sono uscito
+Ho tenuto il bacio che mi hai dato in viso
+Per non correre nessun rischio
+Ho occupato uno spazio più piccolo
+Che mi sono perso?
+Ero solo distratto da me
+Sono entrato con la macchina in giardino
+Perché non vedevo l\'ora di tornare
+Ora che, sorella mia, tu sei madre
+Dimmi se siamo ancora fratelli
+Che mi sono perso?
+Ero solo distratto da me
+E se correre fuori mi lascia fermo dentro
+Allora spero di stancarmi presto
+E se seguendo gli altri lascio indietro me stesso
+Farò di tutto per stare da solo un momento
+Ma che ti sembro un mostro?
+Guarda che sono a posto
+Che mi sono perso?
+Ero solo distratto da me
+Mo\' che ti sembro un mostro?
+L\'ho pensato pure io un secondo
+Che mi sono perso?
+Ero solo distratto, stavo pensando a me
+Ti ho lasciato sopra al letto un mio libro
+Così sai che tornerò
+Ma con tutti quanti i letti che ho visto
+Con che faccia tornerò?
+Voglio entrare nei discorsi deciso
+Ma mi sono perso tanto e che dico?
+Se non sai mai di che si parla
+Tanto vale star zitto
+E se le stelle fuori mi hanno tenuto sveglio
+Vuol dire che ho avuto più di un pensiero
+Se per allontanarsi basta prendere spazio
+Allora diamogli un senso
+Ma che ti sembro un mostro?
+Guarda che sono a posto
+Che mi sono perso?
+Ero solo distratto da me
+Mo\' che ti sembro un mostro?
+L\'ho pensato pure io un secondo
+Che mi sono perso?
+Ero solo distratto, stavo pensando a me
+Ma che ti sembro un mostro?',
+                        'created_at' => '2026-03-06 21:34:43',
+                        'updated_at' => '2026-03-06 21:34:43',
+                    ),
+                    112 => 
+                    array (
+                        'id' => 115,
+                        'edition_id' => 6,
+                        'title' => 'Vivo',
+                        'collaborators' => 'Levante',
+                        'position' => 23,
+                        'lyrics' => 'O sorrido o piango
+Non so fare altro
+Mi emoziono con poco
+Gioco ancora col fuoco
+Bacio rime, bacio bene, ti bacio dopo
+Ho sorriso tanto
+Dentro a questo pianto
+Ho voglia di credere di poter farcela
+A costo di cedere parti di me
+Ho voglia di cedere a questa speranza
+Per poter credere a tutta la vita che
+Vivo come viene
+Vivo il male, vivo il bene
+Vivo come piace a me
+Vivo per chi resta e chi scompare
+Vivo il digitale
+Vivo l\'uomo e l\'animale
+Vivo l\'attimo che c\'è
+Vivo per la mia liberazione
+Vivo un sogno erotico
+La gioia del mio corpo è un atto magico
+Vivo un sogno erotico
+La gioia del mio corpo è un atto magico
+O respiro o affanno
+Come stare al mondo?
+Mi sorprendo con poco
+Credo nel Dio che prego
+Padre nostro, Padre posso andare in cielo?
+Ho il destino stanco
+Forse ho corso tanto
+Ho voglia di prendere tutto il possibile
+Non voglio perdermi niente di me
+Ho voglia di credere "nulla è impossibile"
+Vorrei provarci per tutta la vita che
+Vivo come viene
+Vivo il male, vivo il bene
+Vivo come piace a me
+Vivo per chi resta e chi scompare
+Vivo il digitale
+Vivo l\'uomo e l\'animale
+Vivo l\'attimo che c\'è
+Vivo per la mia liberazione
+Vivo un sogno erotico
+La gioia del mio corpo è un atto magico
+Vivo un sogno erotico
+La gioia del mio corpo è un atto magico
+Addio
+A tutti i "dovrei"
+A tutti i "se poi"
+A tutti i miei Perché? Perché? Perché? Perché?
+Perché? Perché? Perché? Perché? Perché?"
+Vivo un sogno erotico
+Vivo un sogno erotico
+La gioia del mio corpo è un atto magico
+Vivo un sogno erotico
+La gioia del mio corpo è un atto magico',
+                        'created_at' => '2026-03-06 21:35:16',
+                        'updated_at' => '2026-03-06 21:35:16',
+                    ),
+                    113 => 
+                    array (
+                        'id' => 116,
+                        'edition_id' => 6,
+                        'title' => 'Polvere',
+                        'collaborators' => 'Olly, E. Lovito e J. Boverod',
+                        'position' => 24,
+                        'lyrics' => 'Io
+Innamorato
+Come i ciechi con gli odori
+Come i muti coi rumori
+Come gli altri, come noi
+Ero distratto
+Come un bimbo con un gioco
+Come un lupo con il fuoco
+Che se lo agiti, scappa via
+E stavo sotto a un nuvolone
+Poi mi sono accorto che
+Più lontano c’era il sole aaaaaa
+Stavo in uno scatolone
+C’era scritto “fragile”
+E sembra facile però
+Su di me
+Solo polvere
+Facciamo un giro
+Se piove, piove, fino a che
+Non ci si bagnerà il cuore, cuore
+Io e te
+Ma su di me
+Solo polvere
+Vuoi sapere che si vede
+Qui da sopra a uno scaffale
+Io che ho molta fantasia
+Vedo mare, mare, mare
+Vedo Dio mentre pittura
+Che sorride perché sa
+Che se fa una sbavatura
+Poi non la cancellerà
+Io
+Davo peso alle parole
+Poi mi sono accorto che
+Mi coprivano dal sole aaaaaaa
+Ho visto uno scatolone
+C’era scritto “fragile”
+Ma che senso ha?
+Facciamo un giro se
+Piove, piove, fino a che
+Non ci si bagnerà il cuore, cuore
+Io e te
+Ma su di me
+Solo polvere
+Facciamo un giro se
+Piove, piove uhhhh
+E ci si bagnerà il cuore, cuore uhhh
+Ma su di me
+Solo polvere
+Su di me
+Solo polvere
+Su di me
+Solo polvere
+Su di me
+Solo polvere
+Su di me
+Solo',
+                        'created_at' => '2026-03-06 21:35:57',
+                        'updated_at' => '2026-03-06 21:35:57',
+                    ),
+                    114 => 
+                    array (
+                        'id' => 117,
+                        'edition_id' => 6,
+                    'title' => 'Sali(canto dell\'anima)',
+                        'collaborators' => 'A. Oxa, F. Bianconi, Kaballà e F. Zanotti',
+                        'position' => 25,
+                        'lyrics' => 'Bocche piene di falsità che nutre il mondo
+Mani prive di dignità, votate a Dio
+Sali, uomo, sali e dimentica
+Sali e ritorna alla (tua) nascita
+Occhi dell’ambiguità dei nostri tempi
+Vite frammentate senza verità
+Sali, donna, sali e resuscita
+Sali e ritorna alla (tua) nascita
+Libera l’anima
+Come rondini la sera
+Vola libera
+Nitida come il canto dell’anima
+Come stella dell’aurora
+Di un mattino che non c’è
+E che non ha nome
+Arca dell’umanità andata a fondo
+Cuori puri mangiati dall’avidità
+Sali e poi un’altra vita tu
+Vivrai, Vivrai, Vivrai,
+Vivrai, Vivrai, Vivrai,
+Vivrai, Vivrai, Vivrai
+Libera l’anima
+Come stella dell’aurora
+Di un mattino che non c’è
+Sali… sali… Rosa… sali
+Come stella dell’aurora
+Di un mattino che non c’è
+E che non ha nome… oh…
+Che non ha nome
+Oh… oh… oh… oh… oh… oh… oh…
+Nitida l’anima
+Come stella dell’aurora
+Di un mattino che non c’è
+E che non ha nome',
+                        'created_at' => '2026-03-06 21:36:42',
+                        'updated_at' => '2026-03-06 21:36:42',
+                    ),
+                    115 => 
+                    array (
+                        'id' => 118,
+                        'edition_id' => 6,
+                        'title' => 'Stupido',
+                        'collaborators' => 'Will, S. Cremonini e A. Pugliese',
+                        'position' => 26,
+                        'lyrics' => 'La nostra storia non è andata come pensi tu
+Ti mentirei se ti dicessi non ti penso più
+Io in verità mi sono perso
+Per me sei il mare aperto
+E l’odio è una corrente che ci tira giù
+Ti chiedo scusa se poi annego in una lacrima
+Ma non riesco a voltare pagina
+Parole parole non bastano, siamo occasioni che passano,
+Siamo dolori che canterò, so che se torni non basterò
+Siamo ferite che ballano, io non sopporto chi parla no,
+Siamo dolori che canterò e so che se torni non basterò
+Ma a volte io mi sento stupido
+Volevo tutto il pianeta stringerlo in una mano
+Volevo fare il poeta, ora l’essere umano
+E divento pure un po’ banale
+Come dirti che se non ci sei non so che fare
+E poi ti chiamo subito
+Ma dubito che tu voglia rispondermi
+Ora che non sei più parte di me
+Ora mi chiedo che cosa farai da grande
+Ormai ti vedo andare sempre più distante da me
+E so che forse tu lo trovi divertente, ma non mi è rimasto niente,
+Se non qualche ricordo di noi
+Il tempo può andare all’indietro se vuoi
+Anche se
+Parole parole non bastano, siamo occasioni che passano,
+Siamo dolori che canterò, so che se torni non basterò
+Siamo ferite che ballano, io non sopporto chi parla no,
+Siamo dolori che canterò e so che se torni non basterò
+Ma a volte io mi sento stupido
+Volevo tutto il pianeta stringerlo in una mano
+Volevo fare il poeta, ora l’essere umano
+E divento pure un po’ banale
+Come dirti che se non ci sei non so che fare
+E poi ti chiamo subito
+Ma dubito che tu voglia rispondermi
+Ora che non sei più parte di me
+E a volte io mi sento stupido, ma ruberò le lacrime che ti porta via il vento
+Lo sai come mi sento, perché so che mi senti, nel pieno della notte
+Mi tremerà la voce, darò la colpa al freddo
+E non tornerò
+E divento pure un po’ banale
+Come dirti che se non ci sei non so che fare
+E poi ti chiamo subito
+Ma dubito che tu voglia rispondermi
+Ora che non sei più parte di me',
+                        'created_at' => '2026-03-06 21:37:25',
+                        'updated_at' => '2026-03-06 21:37:25',
+                    ),
+                    116 => 
+                    array (
+                        'id' => 119,
+                        'edition_id' => 6,
+                        'title' => 'Egoista',
+                        'collaborators' => 'Shari, M. Pisciottu, L. Fenudi e R. Puddu',
+                        'position' => 27,
+                        'lyrics' => 'Forse vorrei una ragazza normale
+Che mi guardi e mi sorrida mentre le scrivo canzoni d\'amore
+Forse vorrei qualcuno da idealizzare
+Che mi tenga apposto il cuore
+Mentre svuoto la mente e forse
+Forse vorrei un uomo che mi ascolti
+Parlare dei problemi e dei posti in cui vorrei abitare
+Forse vorrei
+Solo qualcuno d\'amare
+Per poi fargli del male
+Ci fossi tu qua con me
+Mi sentirei un po\' meno egoista
+Mentre stappo sta birra che sa di the
+Tu qua con me saresti un po\' meno egoista
+Prendi in mano la vita un po\' com\'è e sali
+Sali per la montagna dei miei pensieri e arrivi in cima
+Ti sembra normale guardarmi così
+Che neanche mi accorgo e sei dentro i miei jeans
+E il weekend passato l\'ho passato in prima fila
+Dal divano osservavo in silenzio la vita crollarmi davanti
+Cerco di distrarmi
+Ma mi perdo il film
+Siamo distanti
+Voci sognanti
+Diventano addii
+Ho bisogno di qualcuno
+Per sollevarmi se mi chiudo
+Non mi servisse più il tuo aiuto
+Ti avrei mandato già a fanculo
+Odio chi non ha mai amato ma dice di averlo fatto (come te)
+Odio chi non prova niente e poi gioca col cuore di un altro (come me)
+Ci fossi tu qua con me
+Mi sentirei un po\' meno egoista
+Mentre stappo sta birra che sa di the
+Tu qua con me saresti un po\' meno egoista
+Prendi in mano la vita un po\' com\'è
+E sali
+Sali per la montagna dei miei pensieri e arrivi in cima
+Forse vorrei, vorrei, vorrei, vorrei
+Ci fossi tu qua con me mi sentirei un po\' meno egoista, egoista
+Forse vorrei, vorrei, vorrei, vorrei
+Ci fossi tu qua con me mi sentirei un po\' meno egoista, egoista',
+                        'created_at' => '2026-03-06 21:38:02',
+                        'updated_at' => '2026-03-06 21:38:02',
+                    ),
+                    117 => 
+                    array (
+                        'id' => 120,
+                        'edition_id' => 6,
+                        'title' => 'Cause perse',
+                        'collaborators' => 'M. De Lauri e G. De Lauri',
+                        'position' => 28,
+                        'lyrics' => 'Eddai non puoi
+Farmi sempre le stesse tre domande
+Lo sai che ho
+Sogni troppo grandi per queste tasche
+Ma
+Chiedi scusa anche a papà
+Se mi parli e sto per aria
+Se ho una testa dimmerda
+Ma qua fuori è una guerra
+Mollami almeno un momento
+E spiegami com\'è che si fa
+Triste vedere niente cambia col tempo
+E io sto da solo con il cuore a metà
+Siamo due cause perse
+Me Io dicevi sempre
+Ho messo i tappi alle orecchie
+Siamo due cause perse
+Eddai non puoi
+Farmi sempre quelle solite facce
+Non hai nemmeno detto ciao
+Nemmeno detto ciao prima di andartene
+E ti sto odiando ma al contrario
+Forse sono solo sadico
+E ho una testa di merda
+Ma qua fuori è una guerra
+È una guerra
+Mollami almeno un momento
+E spiegami com\'è che si fa
+Triste vedere niente cambia col tempo
+E io sto da solo con il cuore a metà
+Siamo due cause perse
+Me Io dicevi sempre
+Ho messo i tappi all\'orecchie
+Siamo due cause perse
+La luce dei bar
+Non mi illumina
+Paranoia
+Se tu non sei qua ma ho
+Buchi nei miei jeans dove ho messo i sogni
+La testa va in tilt con i tuoi discorsi
+Brucio questi anni come se non li avessi
+Come siga spente sui polsi
+Mollami almeno un momento
+E spiegami com\'è che si fa
+Triste vedere niente cambia col tempo
+E io sto da solo con il cuore a metà
+Siamo due cause perse
+Me Io dicevi sempre
+Ho messo i tappi all\'orecchie
+Siamo due cause perse',
+                        'created_at' => '2026-03-06 21:38:33',
+                        'updated_at' => '2026-03-06 21:38:33',
+                    ),
+                    118 => 
+                    array (
+                        'id' => 121,
+                        'edition_id' => 7,
+                        'title' => 'O forse sei tu',
+                        'collaborators' => 'E. Toffoli, D. Petrella',
+                        'position' => 2,
+                        'lyrics' => 'Sarà che il tempo poi, alla fine, proprio non ci sfiora
+O forse è solamente il cielo quando si colora un po\' di più
+O forse sei tu
+O forse sei tu
+Ti capirei se non dicessi neanche una parola
+Mi basterebbe un solo sguardo per immaginare il mare blu
+E niente di più, uh-uh
+E niente di più, uh
+E chiedimi tu come stai
+Se ancora io non l\'ho capito
+E se domani partirai
+Portami sempre con te
+Sarò tra le luci di mille città
+Tra la solita pubblicità
+Quella scusa per farti un po\' ridere
+E io sarò quell\'istante che ti porterà
+Una piccola felicità
+Quella stupida voglia di vivere sempre
+Sempre
+Sarà che tra tutto il casino sembra primavera
+Sarà che la vertigine non mi fa più paura e guardo giù
+O forse sei tu
+O forse sei tu
+E chiedimi tu come stai
+Se ancora io non l\'ho capito
+E se domani partirai
+Portami sempre con te
+Sarò tra le luci di mille città
+Tra la solita pubblicità
+Una scusa per farti sorridere
+Sì che sarò quell\'istante che ti porterà
+Una piccola felicità
+Quella stupida voglia di vivere sempre
+Mille volte
+Ti ho cercato, ti ho pensato un po\' più forte
+Nella notte ancora
+Mille volte
+Quella musica risuona in ogni parte
+Nella notte
+Forse sei tu
+Tra le luci di mille città
+Tra la solita pubblicità
+Quella scusa per farmi un po\' ridere
+Forse sei tu
+Quell\'istante che mi porterà
+Una piccola felicità
+Quella stupida voglia di vivere
+Sempre
+Sempre
+Quella stupida voglia di vivere',
+                        'created_at' => '2026-03-06 22:30:23',
+                        'updated_at' => '2026-03-06 22:30:23',
+                    ),
+                    119 => 
+                    array (
+                        'id' => 122,
+                        'edition_id' => 7,
+                        'title' => 'Apri tutte le porte',
+                        'collaborators' => 'L. Jovanotti, R. Onori',
+                        'position' => 3,
+                        'lyrics' => 'A forza di credere che il male passerà
+Sto passando io
+E lui resta
+Mi devo trascinare presto fuori di qua
+Dai miei pensieri pigri nella testa
+Fare qualcosa
+Oppormi all’inerzia e alla sua forza
+Che rammollisce il corpo mio da dentro
+Mantenendo rigida la scorza
+Ogni giorno mi sveglio e provo
+A dire questo è un giorno nuovo
+Se funziona o no non lo so forse sì
+Vai così vai così vai così vai così
+Stai andando forte
+Apri tutte le porte
+Gioca tutte le carte
+Fai entrare il sole
+Stai andando forte
+Apri tutte le porte
+Brucia tutte le scorte
+Fai entrare il sole
+L’abitudine è una brutta bestia
+Un parassita che lentamente infesta
+Tutto quanto fino a prendere il potere
+E non riesci più a reagire
+Ogni giorno mi sveglio e provo
+A dire questo è un giorno nuovo
+Lo esplorerò
+Partendo da ora e da qui
+Vai così vai così vai così vai così
+Stai andando forte
+Apri tutte le porte
+Gioca tutte le carte
+Fai entrare il sole
+Stai andando forte
+Apri tutte le porte
+Brucia tutte le scorte
+Fai entrare il sole
+Apri tutte le porte
+Fai entrare il sole
+Apri tutte le porte
+Fai entrare il sole
+Apri tutte le porte
+Fai entrare il sole
+Apri tutte le porte
+Fai entrare il sole
+E quando il sole non c’è
+Lo cerco dentro di me
+Se tu mi guardi una volta
+Mi basta per ore
+E quando il sole va via
+Se tu mi fai una magia
+Sento tornare l’amore
+Amore amore',
+                        'created_at' => '2026-03-06 22:31:50',
+                        'updated_at' => '2026-03-06 22:31:50',
+                    ),
+                    120 => 
+                    array (
+                        'id' => 123,
+                        'edition_id' => 7,
+                        'title' => 'Ovunque sarai',
+                        'collaborators' => 'Irama, G. Nenna, Shablo, V. L. Faraone, G. Colonnelli',
+                        'position' => 4,
+                        'lyrics' => 'Se sarai vento, canterai
+Se sarai acqua, brillerai
+Se sarai ciò che sarò
+E se sarai tempo, ti aspetterò
+Per sempre
+Se sarai luce, scalderai
+Se sarai luna, ti vedrò
+E se sarai qui non lo saprò
+Ma se sei tu, lo sentirò
+Ovunque sarai, ovunque sarò
+In ogni gesto io ti cercherò
+Se non ci sarai, io lo capirò
+E nel silenzio io ti ascolterò
+Se sarò in terra, mi alzerai
+Se farà freddo, brucerai
+E lo so che mi puoi sentire
+Dove ogni anima ha un colore
+Ogni lacrima ha il tuo nome
+Se tornerai qui, se mai, lo sai
+Che io ti aspetterò
+Ovunque sarai, ovunque sarò
+In ogni gesto io ti cercherò
+Se non ci sarai, io lo capirò
+E nel silenzio io ti ascolterò
+Io ti ascolterò
+Se sarai vento, canterai',
+                        'created_at' => '2026-03-06 22:32:38',
+                        'updated_at' => '2026-03-06 22:32:38',
+                    ),
+                    121 => 
+                    array (
+                        'id' => 124,
+                        'edition_id' => 7,
+                        'title' => 'Farfalle',
+                        'collaborators' => 'Sangiovanni, A. La Cava, S. Tognini',
+                        'position' => 5,
+                        'lyrics' => 'Hai una casa un po\' piccola, sembra fatta per te
+È diventata la nostra da quando hai appiccicato
+Tutti i momenti-i che hai passato con me-e-e
+Sopra il frigorifero (sopra il frigorifero) c\'è la mia faccia
+E mi fa ridere che sono da tutte le parti
+Girando gli angoli di questo mondo
+Non posso trovarmi in un luogo migliore
+Se non tra le tue braccia, in mezzo a tutte le luci
+Noi siamo gli unici con le tapparelle chiuse
+E non l\'ho detto a nessuno
+Che ho perso la testa e sono pazzo di te
+Non volano farfalle
+Non sto più nella pelle
+Ho perso le emozioni me le ritrovi tu?
+Da questa notte
+No, no non voglio stare male
+Dammi due ali per volare
+Sei una boccata d\'aria-ia
+Hai un elastico tra i capelli
+Per tenerci legati
+Non ho nulla a parte te
+Che mi faccia respirare
+Sei una botta di ossigeno in mezzo all\'industria
+La vita è un po\' tossica, strappi un sorriso
+Quando mi guardi con quegli occhi lucidi
+Non sento i limiti nel mio futuro
+E non l\'ho detto a nessuno
+Che ho perso la testa e sono pazzo di te
+Non volano farfalle
+Non sto più nella pelle
+Ho perso le emozioni me le ritrovi tu?
+Da questa notte
+No, no non voglio stare male
+Dammi due ali per volare
+Sei una boccata d\'aria-ia
+Volano farfalle sulle lampadine
+Attratte come fosse la luce del sole
+Come me che tra miliardi di persone
+Vengo verso di te
+Non volano farfalle
+Non sto più nella pelle
+Ho perso le emozioni me le ritrovi tu?
+Da questa notte
+No no non voglio stare male
+Dammi due ali per volare
+Sei una boccata d\'aria-ia
+Sei una boccata d\'aria-ia',
+                        'created_at' => '2026-03-06 23:07:15',
+                        'updated_at' => '2026-03-06 23:07:15',
+                    ),
+                    122 => 
+                    array (
+                        'id' => 125,
+                        'edition_id' => 7,
+                        'title' => 'Ogni volta è cosi',
+                        'collaborators' => 'D. Petrella, Emma, D. Faini',
+                        'position' => 6,
+                        'lyrics' => 'Lo vedi come sei, arrenditi stanotte
+Che non ci metteremo a tremare come foglie
+Siamo stati mai liberi? A volte
+Sei tu che mi hai insegnato a giocare a chi è più forte
+E ogni volta è così, ogni volta è normale
+Non c\'è niente da dire, niente da fare
+Ogni volta è così, siamo sante o puttane
+E non vuoi restare qui, e neanche scappare
+Mamma mi diceva sempre: "Siamo come angeli"
+E ti ripetevo sempre: "Per favore abbracciami"
+Io per appartenere alle tue mani non ci ho messo niente
+E ti credevo quando mi giuravi che eri pazzo di me
+E mi guardavi con quegli occhi grandi e mi dicevi sempre
+"Come sei bella, nessuna mai, nessuna più di te"
+Come dimenticare, io non ti ho chiesto niente mai
+Una rosa da ricamare, sopra ai ricordi e che ne sai
+Che sono stanca di sentirmi sospesa e fragile
+Ma con te, ogni volta è così, ogni volta è normale
+Non c\'è niente da dire, niente da fare
+Ogni volta è così, siamo sante o puttane
+E non vuoi restare qui, e neanche scappare
+Mamma mi diceva sempre: "Siamo come angeli"
+E ti ripetevo sempre: "Per favore abbracciami"
+Che per appartenere alle tue mani non ci ho messo niente
+E ti credevo quando mi giuravi che eri pazzo di me
+E mi guardavi con quegli occhi grandi e mi dicevi sempre
+"Come sei bella, nessuna mai, nessuna più di te"
+Non so perché, ma ogni volta è così
+Ogni cosa è al suo posto, non mi piovere addosso
+Persi per strada a un incrocio per un momento
+Metti che il cielo poi fosse il pavimento
+Per me ogni volta è così facile, te lo ricordi che
+Io per appartenere alle tue mani non ci ho messo niente
+E ti credevo quando mi giuravi che eri pazzo di me
+E mi guardavi con quegli occhi grandi e mi dicevi sempre
+"Come sei bella, nessuna mai, nessuna mai, nessuna più di te"',
+                        'created_at' => '2026-03-06 23:08:07',
+                        'updated_at' => '2026-03-06 23:08:07',
+                    ),
+                    123 => 
+                    array (
+                        'id' => 126,
+                        'edition_id' => 7,
+                        'title' => 'Ciao ciao',
+                        'collaborators' => 'V. Lucchesi, D. Mangiaracina, R. Calabrese, R. Cammarata, C. Drago, S. Privitera',
+                        'position' => 7,
+                        'lyrics' => 'Come stai bambina?
+Dove vai stasera?
+Che paura intorno
+È la fine del mondo
+Sopra la rovina sono una regina
+Ma-ma-ma
+Ma non so cosa salvare
+Sono a pezzi, già mi manchi
+Occhi dolci, cuori infranti
+Che spavento, come il vento
+Questa terra sparirà
+Nel silenzio della crisi generale
+Ti saluto con amore
+Con le mani, con le mani, con le mani
+Ciao ciao
+Con i piedi, con i piedi, con i piedi
+Ciao ciao
+E con la testa, con il petto, con il cuore
+Ciao ciao
+E con le gambe, con il culo, coi miei occhi
+Ciao (ciao, ciao, ciao, ciao, ciao, ciao, ciao)
+Questa è l\'ora della fine
+Romperemo tutte le vetrine
+Tocca a noi, non lo senti, come un\'onda arriverà
+Me lo sento esploderà, esploderà
+La fine del mondo è una giostra perfetta
+Mi scoppia nel cuore la voglia di festa
+La fine del mondo, che dolce disdetta
+Mi vien da star male, mi scoppia la testa
+Con le mani, con le mani, con le mani
+Ciao ciao
+E con i piedi, con i piedi, con i piedi
+Ciao ciao
+E con le gambe, con il culo, coi miei occhi
+Ciao ciao
+E con la testa, con il petto, con il cuore
+Buonanotte, bonne nuit
+E bonne nuit e ciao ciao
+Buonanotte, è la fine, ti saluto
+Ciao ciao
+Buonanotte, bonne nuit
+E bonne nuit e ciao ciao
+Ciao ciao
+Ciao ciao
+Mentre mangio cioccolata in un locale
+Mi travolge una vertigine sociale
+Mentre leggo uno stupido giornale
+In città è scoppiata la guerra mondiale
+E con le mani, con le mani, con le mani
+Ciao ciao
+E con i piedi, con i piedi, con i piedi
+Ciao ciao
+Con le mani, con le mani, con le mani
+Ciao ciao
+Con i piedi, con i piedi, con i piedi
+Ciao ciao
+E con la testa, con il petto, con il cuore
+Ciao ciao
+E con le gambe, con il culo, coi miei occhi
+Ciao',
+                        'created_at' => '2026-03-06 23:08:51',
+                        'updated_at' => '2026-03-06 23:08:51',
+                    ),
+                    124 => 
+                    array (
+                        'id' => 127,
+                        'edition_id' => 7,
+                        'title' => 'Lettera di là dal mare',
+                        'collaborators' => 'F. Ilacqua',
+                        'position' => 8,
+                        'lyrics' => 'La notte non finisce mai
+L\'america lontana
+Di là dal mare
+Dove piove fortuna, dov\'è libertà
+E l\'acqua è più pura di un canto
+Mmh, mmh-mmh, mmh-mmh-mmh-mmh
+Mmh, mmh-mmh, mmh-mmh-mmh-mmh
+Ed è silenzio tra due sponde
+La terra un sogno altrove
+Ma in un punto del viaggio la pioggia cadrà
+Su ogni paura ed oltraggio
+Amore vedi così buio è
+Questo mare
+Troppo grande per
+Non tremare
+E poi si sta
+Col fiato a metà
+E tutti tacciono
+E tanti pregano
+Se il Signore vorrà
+E il passo perde il tempo
+E niente sembra vero
+Mai nessun temporale lavare potrà
+Le nostre ferite dal sale
+Amore vedi così buio è
+Questo mare
+Troppo grande per
+Non tremare
+Quasi giorno ormai
+Poi il tempo si ferma
+Qualcuno grida terra, terra, terra
+Amore vedi così buio è
+Questo mare
+È ferita che non scompare
+Dove va
+Il tempo chissà
+E gli occhi tacciono
+Ma a notte sognano
+Il motore che va',
+                        'created_at' => '2026-03-06 23:09:44',
+                        'updated_at' => '2026-03-06 23:09:44',
+                    ),
+                    125 => 
+                    array (
+                        'id' => 128,
+                        'edition_id' => 7,
+                        'title' => 'Dove si balla',
+                        'collaborators' => 'D. D\'Amico, E. Roberts, G. Fazio, A. Bonomo',
+                        'position' => 9,
+                        'lyrics' => 'Mi piace la musica dance
+Che pure un alieno la impara
+E mi piace, mi piace, mi piace
+Che non mi sento più giù
+(Più giù)
+Mi piace perché sa di te
+Di quando ballavi per strada
+E mi piace, mi piace, mi piace
+Anche se non ci sei più
+(Sei più)
+Ultimamente dormo sempre anche se non sogno
+Senza live con il pile sul divano
+Se dormi troppo poi ti svegli morto
+Sono d\'accordo
+Quindi dove andiamo?
+Dove si balla
+Fottitene e balla
+Tra i rottami
+Balla per restare a galla
+Negli incubi mediterranei
+Che brutta fine le cartoline
+La nostra storia che va a farsi benedire
+Ma va\' a capire perché si vive se non si balla
+Dai metti la musica dance
+Che tremano i vetri di casa
+E la sente la sente la sente
+Anche un parente di giù
+(Ciao zio Pino!)
+Tanto domani non lavoro e dormo tutto il giorno
+Ciao che fai? Quanto stai qui a Milano?
+Ma se ci scopre tu sei un uomo morto
+Sono d\'accordo
+Non glielo diciamo
+Dove si balla
+Fottitene e balla
+Tra i rottami
+Balla per restare a galla
+Negli incubi mediterranei
+Che brutta fine fermi al confine
+La nostra storia che va a farsi benedire
+Ma va\' a capire perché si vive se non si balla
+Finalmente ho quarant\'anni ed ho ancora fame
+Io non parlo col mio cane ma c\'è un bel legame
+E sto anche vedendo una
+Sono già tre sere
+Per ora mangiamo assieme
+Ma promette bene
+E non si può fare la storia se ti manca il cibo
+Tu m\'hai levato tutto tranne l\'appetito
+Ogni tanto in lontananza sento ancora musica che fa
+Pa-para-ra parara-pa-pa
+Pa-para-ra parara-pa-pa
+Pa-para-ra parara-pa-pa
+Pa-para-ra parara-pa-pa
+Pa-para-ra parara-pa-pa
+Dove si balla
+Fottitene e balla
+Tra i rottami
+Balla per restare a galla
+Negli incubi mediterranei
+Che brutta fine le mascherine
+La nostra storia che va a farsi benedire
+Ma va\' a capire perché si vive se non si balla',
+                        'created_at' => '2026-03-06 23:10:23',
+                        'updated_at' => '2026-03-06 23:10:23',
+                    ),
+                    126 => 
+                    array (
+                        'id' => 129,
+                        'edition_id' => 7,
+                        'title' => 'Inverno dei fiori',
+                        'collaborators' => 'A. A. Vella, M. Bravi, Cheope, F. Catitti, F. Abbate',
+                        'position' => 10,
+                        'lyrics' => 'A volte il silenzio brucia come una ferita
+Il cuore perde un colpo, non respira sotto il peso della vita
+Altre volte la tua voce è come un fiume in piena
+E si fa largo nel mio mare come fa una vela
+Ti nascondi nei miei occhi
+Ma ti lascio andare via quando piango
+Ogni volta tu ritorni
+come l\'aria nei polmoni e ti canto
+E so quanto fa bene
+È da tanto che non mi succede nient\'altro
+che avere la paura di perderti
+da un momento all\'altro
+Ma nell\'ipotesi e nel dubbio
+Di aver disimparato tutto
+E nell\'ipotesi e nel dubbio
+Che io mi sia perso
+Che abbia lasciato distrattamente indietro un pezzo
+Tu insegnami come si fa
+Ad imparare la felicità
+Per dimostrarti che se fossimo dei suoni
+Sarebbero canzoni
+E se fossimo stagioni
+Verrebbe l\'inverno
+L\'inverno dei fiori
+Insegnami come si fa
+A non aspettarsi niente
+A parte quello che si ha
+A bastarsi sempre
+Uscire quando piove e poi
+Entrare dentro a un cinema
+Anche se siamo solo noi
+Anche se il film è già a metà
+Ma nell\'ipotesi e nel dubbio
+Di aver disintegrato tutto
+E nell\'ipotesi e nel dubbio
+Che io mi sia perso
+Fioriamo adesso, prima del tempo
+Anche se è inverno
+Tu insegnami come si fa
+Ad imparare la felicità
+Per dimostrarti che se fossimo dei suoni
+Sarebbero canzoni
+E se fossimo stagioni
+Verrebbe l\'inverno
+L\'inverno dei fiori
+Tu insegnami come si fa
+Ad imparare la felicità
+Per dimostrarti che se fossimo dei suoni
+Sarebbero canzoni
+E se fossimo stagioni
+Verrebbe l\'inverno
+L\'inverno dei fiori',
+                        'created_at' => '2026-03-06 23:11:13',
+                        'updated_at' => '2026-03-06 23:11:13',
+                    ),
+                    127 => 
+                    array (
+                        'id' => 130,
+                        'edition_id' => 7,
+                        'title' => 'Virale',
+                        'collaborators' => 'M. Romano, A. La Cava, F. Rossi, D. Faini',
+                        'position' => 11,
+                        'lyrics' => 'Scale
+Solo per salire se vale
+Cosa ridi se mi fa male
+Curare ferite col sale
+Pare pare
+Su quello che ti piace
+Giuro un po\' lo odio mi spiace
+Pregherò di farti tornare
+Ho il cuore parcheggiato su strade piene, case vuote
+Basta è la tua risposta
+Anche se poi tutto parla di te
+Che te ne fai dei basta come risposta
+E cadiamo giù
+Perdo la testa
+Se non saliamo più
+Tu mi dici no, no, no, no, no
+Di notte non ritornerò
+Frasi scritte per metà, se vere non lo so
+Anche tra i grattacieli volerò
+E lasciati andare
+Che il cuore ti cade giù
+E l\'amore riappare
+Va in tendenza e risale
+Diventa virale
+Vale
+Solo se ti va di rischiare
+E no che non ti voglio cambiare
+Scordiamo paure come con le chiavi e il cellulare
+Basta quanto ti costa
+Tanto ormai tutto qui parla di te
+Che te ne fai dei basta come risposta
+Se cadiamo giù
+Che cosa resta
+Non lo ricordi più
+Tu mi dici no, no, no, no, no
+Di notte non ritornerò
+Frasi scritte per metà, se vere non lo so
+Anche tra i grattacieli volerò
+E lasciati andare
+Che il cuore ti cade giù
+E l\'amore riappare
+Va in tendenza e risale
+Diventa virale
+Oggi non mi va di uscire, come capitava anche a te
+Troppi giochi di parole
+Come mine pronte a esplodere dentro di me
+Tu mi dici no, no, no, no, no
+Di notte non ritornerò
+Frasi scritte per metà, se vere non lo so
+Anche tra i grattacieli volerò
+E lasciati andare
+Che il cuore ti cade giù
+E l\'amore riappare
+Va in tendenza e risale
+Diventa virale
+Va in tendenza e risale
+Diventa virale',
+                        'created_at' => '2026-03-06 23:12:15',
+                        'updated_at' => '2026-03-06 23:12:15',
+                    ),
+                    128 => 
+                    array (
+                        'id' => 131,
+                        'edition_id' => 7,
+                        'title' => 'Sei tu',
+                        'collaborators' => 'F. Moro e R. Cardelli',
+                        'position' => 12,
+                        'lyrics' => 'Sei tu che dai origine a quello che penso
+La distanza compresa fra me e l\'Universo
+Il motivo per cui la mia vita è cambiata
+Sei tu che hai visto i miei sbagli ma non l\'hai giudicata
+E sei tu quel confine fra il giorno e la notte
+Dove io mi nascondo con le mie mani rotte
+Che continuo a scagliare su un muro che non cade giù
+Ma la forza che sento dentro ad ogni sospiro imperfetto
+Sei tu
+Che attraversi il mio ossigeno quando mi tocchi
+Sei tu
+Il mondo che passa attraverso i miei occhi
+E sei tu che mi inietti nel sangue il destino
+E accompagni i miei passi come fossi un bambino
+Sei la cosa più bella che ho sempre difeso
+E hai sconfitto i miei dubbi quando io mi ero arreso
+Che ci vuole una forza incredibile per dire "buongiorno"
+Mentre provi a vagare fra te e chi sta intorno
+Mi hai visto credere in me e poi non crederci più
+Ma l\'insistenza di esistere appesi ad un filo sottile
+Sei tu
+Che attraversi il mio ossigeno quando mi tocchi
+Sei tu
+Il mondo che passa attraverso i miei occhi
+Oggi è un giorno per credere in te
+Oggi lasciami senza parole
+Voglio vivere i sogni che ho fatto anche se
+Hai deciso di essere altrove
+Oggi è un giorno per credere in te
+Oggi lasciami senza parole
+Prendi ancora se vuoi la mia rabbia in affitto
+La distanza fra un uomo che ha vinto ed un uomo sconfitto
+Sei tu
+Che attraversi il mio ossigeno quando mi tocchi
+Sei tu
+Il mondo che passa attraverso i miei occhi
+Sei tu
+Il mondo che passa attraverso i miei occhi
+Sei tu',
+                        'created_at' => '2026-03-06 23:13:30',
+                        'updated_at' => '2026-03-06 23:13:30',
+                    ),
+                    129 => 
+                    array (
+                        'id' => 132,
+                        'edition_id' => 7,
+                        'title' => 'Perfetta così',
+                        'collaborators' => 'AKA 7even, V. Colella, M. E. Kleinschmidt, G. Vizzi, R. L. Patriarca',
+                        'position' => 13,
+                        'lyrics' => 'Non ti ho cercata mai
+Inaspettata, ma tu sei per me
+Lo spazio che nel tempo
+Non mi ha fatto sentire solo
+Eri così fragile che
+Avevi paura di me, di te, di noi
+Ma cosa vuoi dirmi con i tuoi silenzi?
+Non vedi che sei bella, bella, bella così
+Sei perfetta così, così, così, così
+Nei tuoi difetti, nelle imperfezioni
+Baby, giuro che tu sei perfetta così
+E sorridi perché quando lo fai tu mi uccidi
+I tuoi occhi e il tuo corpo, i vestiti
+Quelli miei che indossavi
+Così con te avevi una parte di me
+Mi hai insegnato a lottare
+Anche quando la voglia di piangere mi soffocava
+Sei la prima persona
+A cui sono mancato e che anche a me mancava
+Su di me c\'è il tuo profumo
+Su di te c\'è il mio respiro
+Mi togli il fiato e poi ti dico
+Sei bella così, così, così, così
+Nei tuoi difetti, nelle imperfezioni
+Baby, giuro che tu sei perfetta così
+Mi piaci, sì, quando ti guardi
+Non è facile specchiarsi e mettersi alla prova
+Mi piaci, sì, quando mi parli
+Perché ogni tua parola è perfetta così
+Così, così, così
+Nei tuoi difetti, nelle imperfezioni
+Baby, giuro che tu sei perfetta così
+Sei perfetta così
+Nei tuoi difetti, nelle imperfezioni
+Baby, giuro che tu sei perfetta così
+Sei perfetta così',
+                        'created_at' => '2026-03-06 23:14:08',
+                        'updated_at' => '2026-03-06 23:14:08',
+                    ),
+                    130 => 
+                    array (
+                        'id' => 133,
+                        'edition_id' => 7,
+                        'title' => 'Domenica',
+                        'collaborators' => 'A. Lauro, S. P. Manzari, D. Petrella, M. Ciceroni, M. Cutolo, G. Calculli',
+                        'position' => 14,
+                        'lyrics' => 'È come fosse domenica
+Domenica
+Domenica
+Domenica
+È come i cani che si annusano, oh, no
+Oppure i gatti che girano al porto
+Negli occhi è rock\'n\'roll, ahi, ahia, ah
+Sembra ti tocchino, oh, my God
+Città peccaminose
+Donne pericolose
+L\'amore è un\'overdose
+Centocinquanta dosi
+Oh sì, sì
+Fanculo, è Rollin\' Stone
+Ah-ah-ah
+È zucchero e lampone, oh Dio, sì
+Mi ingoia come un boa
+Lei dice, "Come osi?" e poi mi spoglia
+Come un ladro, no
+Le tratto bene se no si innamorano, ah, ah
+Più tardi in camera
+Sì, poi ti chiamerò
+È come fosse domenica
+Baby, è ancora presto, presto
+È come fosse domenica
+Sì, domani poi vedrò
+Come no
+È come fosse domenica
+Domenica
+È come fosse domenica
+Domenica
+Oh, no, no
+E se li fisso non rispondono
+Esco dal bagno con tre figli e moglie
+E mamma guarda come dondolo
+Ho un brutto voto dopo il compito, ah, ah
+La sposo? La sposo, come no
+Le voglio bene, ma mi do per morto, ah-ah-ah
+\'Sta vita è un roller coaster
+Romanzo rosa, no, piuttosto un porno, oh
+È come fosse domenica
+Baby, è ancora presto, presto
+È come fosse domenica
+Sì, domani poi vedrò
+Come no
+È come fosse domenica
+Domenica
+È come fosse domenica
+Domenica
+Oh, no, no
+È come fosse domenica
+Domenica
+Domenica
+Domenica
+Oh, no, no',
+                        'created_at' => '2026-03-06 23:15:31',
+                        'updated_at' => '2026-03-06 23:15:31',
+                    ),
+                    131 => 
+                    array (
+                        'id' => 134,
+                        'edition_id' => 7,
+                        'title' => 'Ti amo non lo so dire',
+                        'collaborators' => 'A. La Cava, Mahmood, D. Faini',
+                        'position' => 15,
+                        'lyrics' => 'Forse mi calmerò come l\'acqua del mare
+Mi riconoscerò se cambierò parere
+Ho sbagliato a parlarti, scusami perché
+Sono quella stronza che non cambierà per te
+Ti ricordi di me? Le notti a camminare
+Un po\' stanchi e felici sulle strade romane
+Forse avrei dovuto solo chiedermi se c\'è
+Una strada dove continuare senza te
+So che è un po\' da stupidi fare finta di niente perché
+Ad aspettare dei miracoli ci togliamo i secondi e non c\'è
+Più cura per riprenderli, preferisco galleggiare
+Sopra i miei pericoli con la testa verso il sole
+Scusa se non ho niente da perdere
+Più mi guardi più credo che
+La parola sia l\'unico proiettile
+A dividere questo nodo tra me e te
+È sempre più difficile, ma se ci penso un attimo
+Non ho paura
+Di sentirmi vuota dentro un mare
+Di parole perse sul fondale
+Servirà un po\' di fortuna
+Per capire meglio noi chi siamo
+Posso andare sulla luna
+Ma, "Ti amo, ti amo, ti amo" non lo so dire
+Non mi nasconderò neanche dal temporale
+Quando mi chiederai, "Come stai, amore?"
+È tempo di decidere, ma ho bisogno di tempo per me
+Non mi sentirò colpevole di accettare i miei difetti
+Scusa se non ho niente da perdere
+Più mi guardi più credo che
+La parola sia l\'unico proiettile
+A dividere questo nodo tra me e te
+È sempre più difficile, ma se ci penso un attimo
+Non ho paura
+Di sentirmi vuota dentro un mare
+Di parole perse sul fondale
+Servirà un po\' di fortuna
+Per capire meglio noi chi siamo
+Posso andare sulla luna
+Ma, "Ti amo, ti amo, ti amo"
+So che è un po\' da stupidi fare finta di niente perché
+Ad aspettare dei miracoli ci togliamo i secondi e non c\'è
+Più cura per riprenderli, preferisco galleggiare
+Sopra i miei pericoli, con la testa verso il sole
+Perché, "Ti amo" non lo so dire
+Scusa se non ho niente da perdere
+Più mi guardi e più credo che
+La parola sia l\'unico proiettile
+A dividere questo nodo tra me e te
+È sempre più difficile, ma se ci penso un attimo
+Eh-eh, eh-eh
+Non ho paura
+Di sentirmi vuota dentro un mare
+Di parole perse sul fondale
+Servirà un po\' di fortuna
+Per capire meglio noi chi siamo
+Posso andare sulla luna
+Ma, "Ti amo, ti amo, ti amo" non lo so dire',
+                        'created_at' => '2026-03-06 23:16:08',
+                        'updated_at' => '2026-03-06 23:16:08',
+                    ),
+                    132 => 
+                    array (
+                        'id' => 135,
+                        'edition_id' => 7,
+                        'title' => 'Chimica',
+                        'collaborators' => 'Ditonellapiaga, Rettore, A. Casagni, B. Ventura, E. Castroni, V. Smordoni',
+                        'position' => 16,
+                        'lyrics' => 'E non so bene come dirlo
+Come farlo
+Ma ne parlo seriamente
+E non conviene se lo fingo
+Se lo canto
+Se lo urlo tra la gente
+E non mi basta avere un cuore
+Per provare dell’amore veramente
+E non mi servono parole per un poco di piacere è solamente
+Una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+E non c’è dove oppure quando
+Solo fango ed un impianto travolgente
+E non c’è anticipo o ritardo
+E se rimango vengo ripetutamente
+E non m’importa del pudore
+Delle suore me ne sbatto totalmente
+E non mi fare la morale
+Che alla fine, se Dio vuole è solamente
+Una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+E non c’è iodio oppure zinco
+È solo marmo bianco e muscoli bollenti
+E non c’è podio che non vinco
+È solo cardio
+E conta spingere sui tempi
+E non mi serve una Ferrari
+Se non vali come fante a fari spenti
+Ma no non contano gli affari
+Siamo chiari e se compari i coefficienti
+È una questione di
+Trovare quello giusto
+Quello che guardi e per un po’
+Solo un po’
+Solo un po’
+Il mondo fuori è un ricordo alla fine
+Se ho gli occhi nei tuoi occhi
+E le tue labbra sulle mie labbra
+La mano sulla coscia incalza
+E credimi ti dico sì
+È solo una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di
+Chimica chimica
+È una questione di
+Chimica chimica
+È una questione di
+Chimica chimica
+Chi-chi-chi-chi-chi-chi
+Chimica chimica
+È una questione di',
+                        'created_at' => '2026-03-06 23:17:23',
+                        'updated_at' => '2026-03-06 23:17:23',
+                    ),
+                    133 => 
+                    array (
+                        'id' => 136,
+                        'edition_id' => 7,
+                        'title' => 'Insuperabile',
+                        'collaborators' => 'Rkomi, A. La Cava, F. Catitti',
+                        'position' => 17,
+                        'lyrics' => 'L\'amore per me è elettricità
+Sto immergendomi nella corrente, le tue lentiggini
+Uno ogni due sono come scalini che portano nell\'Olimpo
+In un mantello di nuvole bianche, cosa mi hai fatto
+L\'amore per me è quel lasso di tempo
+Il messaggio sulle tue labbra
+Era come un semaforo, Taxi Driver
+Ci vorrebbe piuttosto un aereo
+Non qualcuno che mi dica fermo, per andare nell\'Olimpo
+In un mantello di nuvole bianche
+Cosa mi hai fatto
+L\'amore per me è quel lasso di tempo
+In cui ci sentiamo da soli
+Percepisco sangue freddo nelle mie vene
+A cento ottantamila giri su una coupé
+Due molotov in fiamme nella corrente
+Ti stringo i fianchi, amore sei te
+L\'ultima curva, insuperabile
+Insuperabile
+Insuperabile
+Le sabbie sono diventate rosse
+Abbiamo rovinato anche il cognome dei nostri
+Siamo una sconfitta perfetta bambina
+Il tempo che passa scoppia la clessidra
+Paralizzanti sguardi su cui mi rifletto
+Il respiro irregolare nello stesso letto
+In cui ci sentiamo da soli
+Percepisco sangue freddo nelle mie vene
+A cento ottantamila giri su una coupé
+Due molotov in fiamme nella corrente
+Ti stringo i fianchi, amore sei te
+L\'ultima curva, insuperabile
+Insuperabile
+Insuperabile
+Insuperabile
+Insuperabile
+In bilico su un filo spinato, amo il pericolo
+Ed io che mi ostino a starci sopra
+Baci rubati, respiro gasolio
+Sentimi il polso
+Percepisco sangue freddo nelle mie vene
+A cento ottantamila giri su una coupé
+Due molotov in fiamme nella corrente
+Ti stringo i fianchi, amore sei te
+L\'ultima curva, insuperabile
+Insuperabile
+Insuperabile
+Insuperabile
+Insuperabile',
+                        'created_at' => '2026-03-06 23:18:05',
+                        'updated_at' => '2026-03-06 23:18:05',
+                    ),
+                    134 => 
+                    array (
+                        'id' => 137,
+                        'edition_id' => 7,
+                        'title' => 'Voglio amarti',
+                        'collaborators' => 'E. Di Stefano, V. Mercurio, I. Ianne, C. Valli',
+                        'position' => 18,
+                        'lyrics' => 'Prenderti per come sei
+Senza tanta filosofia
+Sì, lo farò
+Per amore sai che io brucerei
+Ogni ora della vita mia
+L\'ho già fatto e lo rifarei
+E se vuoi, se lo vuoi, se ci stai
+Voglio amarti nei pensieri, nelle mani
+Voglio amarti con l\'anima e di più
+Voglio amarti nelle braccia, nel calore
+Della pelle, del tuo viso su di me
+Voglio amarti e non solo per amore
+Voglio amarti perché ho fame anch\'io di te
+Voglio amarti per quello che hai nel cuore
+E sentirmi ancora viva in te
+E su un giorno scoprirò
+Nel mio cuore una ruga in più sarai tu
+Ma se vuoi, se lo vuoi
+Voglio amarti nei pensieri, nelle mani
+Voglio amarti con l\'anima e di più
+Voglio amarti, solamente amarti ancora
+E domani risvegliarmi accanto a te
+Voglio amarti, voglio amarti per amore
+Per sentirmi ancora viva in te
+Voglio amarti, voglio amarti, voglio amarti
+Per sentirmi ancora viva in te',
+                        'created_at' => '2026-03-06 23:18:56',
+                        'updated_at' => '2026-03-06 23:18:56',
+                    ),
+                    135 => 
+                    array (
+                        'id' => 138,
+                        'edition_id' => 7,
+                        'title' => 'Tuo padre, mia madre, Lucia',
+                        'collaborators' => 'G. Truppi, N. Contessa, Pacifico, M. Buccelli, G. Pallotti',
+                        'position' => 19,
+                        'lyrics' => 'Quando ti ho incontrata per la prima volta
+Ad una cena di sconosciuti in un bar di Torino
+Senza pensarci, d\'istinto, ti ho guardato la mano
+Per vedere se fossi sposata
+Brillano le teste e scintillano le stelle
+Corrono, corrono, corrono
+Gli occhi si chiudono, gli attimi cadono
+Parlami o sei triste?
+Dove andiamo? Che ci faccio qui?
+O siamo sempre stati qui?
+E quando le cose tra di noi non vanno lisce
+e sono malinconico o preoccupato
+Ripenso a quel momento e mi fido di lui
+E anche se a volte litighiamo
+solo per la paura di metterci a letto
+Lo so che per quello che vogliamo fare noi
+Un per cento è amore e tutto il resto è stringere i denti
+E se domani tuo padre, mia madre o Lucia
+Ascolteranno queste parole
+Si chiederanno, come mi chiedo anch\'io
+se questo è un amore
+Risponderò come rispondo anche a me, che
+Amarti è credere che
+Che quello che sarò, sarà con te
+E adesso che conosco anche la tua amarezza
+E il buio senza parole in cui sei nuda di rabbia
+Io ti volevo dire che la mia anima ti vuole, ed il mio cuore pure
+E che le mie fantasie si scaldano al pensiero del tuo fiato
+Brillano le teste e scintillano le stelle
+Coprimi la faccia e non farmi fare niente
+Stringimi più forte e fammi dire un\'altra volta "sì"
+E se domani tuo padre, mia madre o Lucia
+Ascolteranno queste parole
+Si chiederanno, come mi chiedo anch\'io
+se questo è un amore
+Risponderò come rispondo anche a me, che
+Amarti è credere che
+Che quello che sarò, sarà con te
+Amore mio, per vivere
+facciamo mille cose stupide
+Lo sai, per sopravvivere
+semplifichiamo il più possibile
+Ma cosa c\'è di semplice?
+Amore mio
+Che ridere
+E se domani tuo padre, mia madre o Lucia
+Ascolteranno queste parole
+Si chiederanno, come mi chiedo anch\'io
+se questo è un amore
+Risponderò come rispondo anche a me, che
+Amarti è credere che
+Che quello che sarò, sarà con te
+Sto camminando verso di te
+Ti vedo all\'incrocio, mi fermo a guardarti
+E aspetto l\'attimo in cui
+Ti girerai e mi sorriderai vedendomi arrivare',
+                        'created_at' => '2026-03-06 23:19:31',
+                        'updated_at' => '2026-03-06 23:19:31',
+                    ),
+                    136 => 
+                    array (
+                        'id' => 139,
+                        'edition_id' => 7,
+                        'title' => 'Abbi cura di te',
+                        'collaborators' => 'Highsnob, Hu, A. Moroni, F. De Marco, F. Musumeci',
+                        'position' => 20,
+                        'lyrics' => 'Ho perso la ragione, hai ragione
+Ma non siamo pari, siamo animali
+Stringimi forte, che provo piacere
+Nel sentir dolore come lo shibari
+Scrivo solo di notte così per lo meno
+Baby sto imparando a rimpiazzare i sogni
+I sogni come te qualcuno aveva detto
+Che la mattina sveglio neanche li ricordi
+E vincere battaglie non mi serve mica
+Perché questa è una guerra in cui si perde sempre
+E io perdo la testa come Oloferne
+Dimmi come ti senti ora che baci un verme
+Tu vienimi a prendere dentro quest’ansia
+Ti aspetterò dove ci siamo persi
+Siamo un universo fatto di parole
+Che non ci siamo detti
+E per ricordarle, me le tatuerò
+Perché non ti sento ma tutto qua parla di te
+E solo dio sa quanto vorrei che fossi silenzio
+Ho trovato la calma però non è niente di che
+Non ha niente di me
+Tanto ormai ho trovato il coraggio di stare lontano da te
+Lontano da te
+E goodbye ovunque sarai tu ricorda
+Abbi cura di te
+Abbi cura di te
+Come tagli sopra le mie mani
+Queste lenzuola sanno ora come ti chiami
+In questo gioco quando hai vinto hai perso
+Esseri umani senza essere umani
+Vorrei essere acqua per lavarti via il dolore
+Baciare le tue lacrime eh
+E poi piove e poi piove
+E farsi male fino a sfinirsi
+Finché il dolore non lo senti più
+Perché non posso bere veleno nella speranza che muori tu
+Ed è cosi che le nostre parole
+Sono diventate armi in mano a dei bambini
+E fanno così male che non te l’ho detto
+Però ti prometto
+Che per ricordarle me le tatuerò
+Perché non ti sento ma tutto qua parla di te
+E solo Dio sa quanto vorrei che fosse silenzio
+Ho trovato la calma però non è niente di che
+Non ha niente di me
+Tanto ormai ho trovato il coraggio di stare lontano da te
+Lontano da te
+E goodbye ovunque sarai tu ricorda
+Abbi cura di te
+Abbi cura di te
+E tu tornare a togliermi il fiato
+La mia condanna camera a gas
+Giusti al momento sbagliato, ho sbagliato
+Tanto ormai ho trovato il coraggio di stare lontano da te
+Lontano da te
+E goodbye ovunque sarai tu ricorda
+Abbi cura di te
+Abbi cura di te',
+                        'created_at' => '2026-03-06 23:20:33',
+                        'updated_at' => '2026-03-06 23:20:33',
+                    ),
+                    137 => 
+                    array (
+                        'id' => 140,
+                        'edition_id' => 7,
+                        'title' => 'Ora e qui',
+                        'collaborators' => 'T. Di Giulio, F. Cataldo, Yuman',
+                        'position' => 21,
+                        'lyrics' => 'C\'è una strada, tutta curve, tra il cuore e la testa
+Senza mappe, scorciatoie, o un\'area di sosta
+E a perdersi, io lo so bene, basta niente, come in mare
+Ma quando stavo per arrendermi, mi hai insegnato a respirare
+Ora e qui, finalmente io
+Riesco a dire che sto bene, se trema un po\' la voce
+Mi fermo, mi godo la luce, anche fosse un istante, sì
+Ora e qui, riesco a crederci
+Grido forte che sto bene, domani poi si vede
+Questo è l\'inizio del viaggio e mi piace
+Vieni con me
+Quante liste impolverate da me prima o poi
+Notti appese a uno schermo a fare le sei, le sei
+A vivere in un film che so a memoria
+rinchiuso in un finale sempre uguale
+Ma poi mi hai detto, "Guarda là fuori, lo so che hai paura
+Cadrai, ti farai male, ma è così se vuoi volare"
+E ora e qui, finalmente io
+Riesco a dire che sto bene, se trema un po\' la voce
+Mi fermo, mi godo la luce, anche fosse un istante, sì
+Ora e qui, riesco a crederci
+Grido forte che sto bene, domani poi, si vede
+Questo è l\'inizio del viaggio e mi piace
+Resta con me, ehi, ehi
+Partiamo anche adesso, dai
+Hai tenuto insieme il mio mondo
+combattuto per due, vedrai
+Ora tocca a me dimostrarti che
+Voglio dire noi
+Voglio dirlo più forte
+Ancora più forte
+Ancora una volta, sì
+Ora e qui, finalmente io
+Riesco a dire che sto bene, se trema un po\' la voce
+Mi fermo, mi godo la luce, anche fosse un istante, sì
+Ora e qui, riesco a crederci
+Grido forte che sto bene, domani poi si vede
+Questo è l\'inizio del viaggio e mi piace
+Resta con me',
+                        'created_at' => '2026-03-06 23:21:26',
+                        'updated_at' => '2026-03-06 23:21:26',
+                    ),
+                    138 => 
+                    array (
+                        'id' => 141,
+                        'edition_id' => 7,
+                        'title' => 'Tantissimo',
+                        'collaborators' => 'R. Casalino, F. Sarcina, N. Verrienti',
+                        'position' => 22,
+                        'lyrics' => 'C\'era l\'aria che ci univa in mille persone
+C\'era un tempo per dare e avere
+C\'è ancora la mia vita piena di tante cose
+Ho imparato a stare bene nel mezzo sempre
+Oggi penso a tutte le occasioni sprecate
+Alle giornate in strada tra tanta gente
+E a quella polvere che ho tolto piano dal mio cuore
+Per salvare quello che comunemente
+Chiamiamo amore, per quante volte
+Facciamo finta di non ricordarci il nome
+Che sotto voce si sente eccome
+Ma di profilo c\'è il tuo seno che mi vuole
+E anche se non lo dico
+Mi fa male tantissimo
+Male male tantissimo
+C\'era una casa, un divano e vuoti da colmare
+Ed un bel fiore nero è il mio presente
+Quanta fatica facciamo a dimenticare
+Certi ricordi ci rimangono addosso sempre
+Come per dire "guarda cosa ti è successo mentre
+Salvavi quello che comunemente"
+Chiamiamo amore, per quante volte
+Facciamo finta di non ricordarci il nome
+Che sotto voce si sente eccome
+Ma di profilo c\'è il tuo seno che mi vuole
+E anche se non lo dico
+Mi fa male tantissimo
+C\'eri tu
+Dietro quel sogno mai pronunciato
+Dietro gli applausi sordi
+Sopra un palco vuoto
+L\'amore sotto pelle è
+Un\'arma nella mano
+E può fare male male tantissimo
+Ma quale amore, per troppe volte
+Facciamo finta di non ricordarci il nome
+Che sulla pelle poi si confonde
+Quando le labbra vogliono poggiarsi altrove
+E anche solo a pensarci mi fa male tantissimo
+Te lo confesso
+Fa male tantissimo',
+                        'created_at' => '2026-03-06 23:22:03',
+                        'updated_at' => '2026-03-06 23:22:03',
+                    ),
+                    139 => 
+                    array (
+                        'id' => 142,
+                        'edition_id' => 7,
+                        'title' => 'Miele',
+                        'collaborators' => 'D. Petrella, F. Abbate, F. Clemente, A. Merli',
+                        'position' => 23,
+                        'lyrics' => 'Tu no, tu no
+Tu no, non hai lasciato niente
+E non riesco a capire
+Se ti ricorderai
+Di me forse ti ho dato il peggio di me
+Resto sveglia e mi chiedo perché
+Piove su questa città
+Dove tu mi hai voluto bene
+Dove io ti ho voluto bene
+Perché questa notte non corri da me
+Ti ho lasciato nel vento una musica
+Spero che ti parli di me
+L\'amore non se ne va
+Vola via ma poi torna da te
+Come un treno preso di domenica
+Certe volte non c\'è un perché
+E spero ti porti da me
+No, non promettermi niente
+Non cercarmi in un altro abbraccio no
+Ma a volte capita
+Di incontrare qualcuno in mezzo alla via
+Che ti ricorda cos\'è la vita
+Che cos\'è
+Fino a qui
+Senza te
+È una lama che sa di miele
+Cade a terra un altro bicchiere
+Perché questa notte non corri da me
+Ti ho lasciato nel vento una musica
+Spero che ti parli di me
+L\'amore non se ne va
+Vola via ma poi torna da te
+Come un treno preso di domenica
+Certe volte non c\'è un perché
+E spero ti porti da me
+Non è miele
+Sono già sicura che
+Quest\'amore ci porta via
+Ubriachi di nostalgia
+Se ne va
+E un motivo non c\'è
+Questa notte non corri da me
+Ti ho lasciato nel vento una musica
+Spero che ti parli di me
+L\'amore non se ne va
+Vola via ma poi torna da te
+Come un treno preso di domenica
+Certe volte non c\'è un perché
+E spero ti porti da me',
+                        'created_at' => '2026-03-06 23:22:45',
+                        'updated_at' => '2026-03-06 23:22:45',
+                    ),
+                    140 => 
+                    array (
+                        'id' => 143,
+                        'edition_id' => 7,
+                        'title' => 'Duecentomila ore',
+                        'collaborators' => 'R. Hunt, F. Abbate, S. Tognini',
+                        'position' => 24,
+                        'lyrics' => 'Sola, io ti aspetterò a cena da sola
+In mezzo al fumo di mille parole
+Di canzoni che non hanno età
+Sulla pelle il tuo sapore
+Non si muove
+Siamo bravi a continuare
+A farci male
+Io che non cercavo un ragazzo di strada
+Poi mi hai distratta
+Vendendomi un\'altra bugia
+Quando la notte arriva
+M\'ama non m\'ama, un fiore
+America Latina
+Un Cuba Libre, amore
+Quando la notte arriva (ah ah ah)
+Duecentomila ore (ah ah ah)
+Amarsi un\'ora prima (ah ah ah)
+E dopo lasciarsi andar (ah ah ah)
+È un\'altra sera
+Che se n\'è andata
+È questa attesa
+Che è disperata
+È l\'aria fredda
+Di una giornata
+Così di fretta
+Dimenticata
+Quando la notte arriva
+M\'ama non m\'ama, un fiore
+America Latina
+Un Cuba Libre, amore
+Quando la notte arriva (ah ah ah)
+Duecentomila ore (ah ah ah)
+Amarsi un\'ora prima (ah ah ah)
+E dopo lasciarsi andar (ah ah ah)
+Quando la notte arriva
+Duecentomila ore
+Amarsi un\'ora prima
+E dopo lasciarsi andar',
+                        'created_at' => '2026-03-06 23:23:27',
+                        'updated_at' => '2026-03-06 23:23:27',
+                    ),
+                    141 => 
+                    array (
+                        'id' => 144,
+                        'edition_id' => 7,
+                        'title' => 'Sesso occasionale',
+                        'collaborators' => 'Tananai, D. Simonetta, P. Antonacci, A. Raina',
+                        'position' => 25,
+                        'lyrics' => 'Non mi ricordo dove ho parcheggiato la mia macchina distrutta
+Ok va bene che sono distratto, nemmeno tu sei perfetta
+E quanto ti ho aspettata ma tu no, no
+Stavi cercando un tipo, qualcosa che non ho
+Un altro un po\' più freddo ma io no, io c\'ho trentotto gradi in corpo
+E la testa in alto mare
+Troviamoci una casa e non finiamoci più
+Nel sesso occasionale
+Ma sappi che tra un anno, un giorno
+Non avrò capito ancora di cosa hai bisogno
+Baby ritorna da me
+E metti via quella pistola
+Baby ma dai cosa c\'è?
+Quell\'altra non mi è mai piaciuta
+Abbiamo litigato come i gatti sembra che è caduto il cielo
+Ok va bene che non lo rifaccio, sì però dai anche meno
+E quanto ti ho aspettata ma tu no, no
+Ballavi con un tipo, de Niro al quinto shot
+Rimani fino a tardi ma io no, io me ne vado che c\'ho sonno
+E la testa in alto mare
+Troviamoci una casa e non finiamoci più
+Nel sesso occasionale
+Ma sappi che tra un anno, un giorno
+Non avrò capito ancora di cosa hai bisogno
+Baby ritorna da me
+E metti via quella pistola
+Baby ma dai cosa c\'è?
+Quell\'altra non mi è mai piaciuta
+Tranquilli noi, tranquilli mai, tranquilla lei non mi è mai piaciuta
+Tranquilli noi, tranquilli mai, tranquilla lei non mi è mai piaciuta
+Baby ritorna da me
+E metti via quella pistola
+Baby ma dai cosa c\'è?
+Quell\'altra non mi è mai piaciuta
+Tranquilli noi, tranquilli mai, tranquilla lei non mi è mai piaciuta
+Tranquilli noi, tranquilli mai, tranquilla lei non mi è mai piaciuta',
+                        'created_at' => '2026-03-06 23:24:20',
+                        'updated_at' => '2026-03-06 23:24:20',
+                    ),
+                ));
         
         
     }
