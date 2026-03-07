@@ -20,4 +20,6 @@ class Song extends Model
     {
         return $this->belongsToMany(Award::class);
     }
+
+    protected $hidden = ['created_at', 'updated_at', 'edition_id', 'pivot'];
 }
