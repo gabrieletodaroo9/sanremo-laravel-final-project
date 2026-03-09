@@ -27,9 +27,9 @@ class UsersTableSeeder extends Seeder
                 'email' => 'gabrieletodaro@gmail.com',
                 'email_verified_at' => NULL,
                 'password' => '$2y$12$xVyThbg9hsprPhshYTnY9.oEeFal9/H.0qYN8AJnocpUIKQ/vuu.O',
-                'remember_token' => 'KVXctJjwQo5FIYmXbgXnkfT2sqnsDOcVSWne5SAUZdGPDRhJ3LGZGbKPrBiv',
+                'remember_token' => 'BjZqC2ZNwrGUSSbMiCpHswpHhudr9ipcUh43VxoxugwZjiQFgoVCsJrWwMUp',
                 'created_at' => '2026-03-04 14:16:08',
-                'updated_at' => '2026-03-04 14:28:41',
+                'updated_at' => '2026-03-09 14:39:38',
             ),
         ));
         
