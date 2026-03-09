@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Models\Artist;
 use App\Models\Edition;
+use App\Models\Song;
 use Illuminate\Http\Request;
 
 class ApiController extends Controller
@@ -38,4 +39,25 @@ class ApiController extends Controller
             "data" => $artist,
         ]);
     }
+
+    public function showSong($id)
+{
+    $song = Song::with(['artists', 'awards', 'edition'])->find($id);
+
+    return response()->json([
+        "success" => true,
+        "data" => $song,
+    ]);
+}
+
+public function showSongs()
+{
+    $songs = Song::with(['artists'])->get();
+
+    return response()->json([
+        "success" => true,
+        "data" => $songs,
+    ]);
+}
+
 }

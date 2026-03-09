@@ -42,6 +42,7 @@ class SongController extends Controller
 
         $newSong->title = $data["title"];
         $newSong->edition_id = $data["edition_id"];
+        $newSong->youtube_url = $data["youtube_url"] ?? null;
         $newSong->position = $data["position"] ?? null;
         $newSong->lyrics = $data["lyrics"];
         $newSong->collaborators = $data['collaborators'] ?? null;
@@ -91,6 +92,7 @@ class SongController extends Controller
 
         $song->title = $data["title"];
         $song->edition_id = $data["edition_id"];
+        $song->youtube_url = $data["youtube_url"] ?? null;
         $song->position = $data["position"] ?? null;
         $song->lyrics = $data["lyrics"];
         $song->collaborators = $data['collaborators'] ?? null;

@@ -11,3 +11,5 @@ Route::get('/user', function (Request $request) {
 Route::get('/editions', [ApiController::class, 'index']);
 Route::get('/editions/{id}', [ApiController::class, 'showEdition']);
 Route::get('/artists/{id}', [ApiController::class, 'showArtist']);
+Route::get('/songs/{id}', [ApiController::class, 'showSong']);
+Route::get('/songs', [ApiController::class, 'showSongs']);

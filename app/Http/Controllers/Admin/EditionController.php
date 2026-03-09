@@ -88,7 +88,7 @@ class EditionController extends Controller
 
         if (array_key_exists("logo_url", $data)) {
             if ($edition->logo_url) {
-                Storage::delete($edition->img_url);
+                Storage::delete($edition->logo_url);
             }
             $logo_url = Storage::putFile("editions/logos", $data["logo_url"]);
             $edition->logo_url = $logo_url;
