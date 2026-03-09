@@ -1164,6 +1164,14 @@ class ArtistSongTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
+            143 => 
+            array (
+                'id' => 146,
+                'artist_id' => 69,
+                'song_id' => 68,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
         ));
         
         

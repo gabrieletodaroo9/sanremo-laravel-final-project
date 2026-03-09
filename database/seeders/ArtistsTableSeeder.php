@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+
 class ArtistsTableSeeder extends Seeder
 {
 
@@ -705,9 +706,9 @@ Vincitore della categoria "Nuove Proposte" a Sanremo 2020 con il brano "Vai bene
             'name' => 'Loredana Bertè',
             'type' => 'solista',
             'bio' => 'Vera e propria icona del rock italiano, Loredana Bertè è la "reggina" indomabile della musica nazionale. Con una carriera leggendaria fatta di avanguardia, provocazione e successi immortali, la sua voce graffiante e la sua personalità punk continuano a influenzare intere generazioni, rappresentando un simbolo di libertà assoluta e resilienza artistica.',
-            'img_url' => 'artists/images/GLCszLcOaI4K4muVkzB6f5tnvl4clwazba0PmV57.webp',
+            'img_url' => 'artists/images/dmJJtzjZMQbE8YHe24sXi69awEPiGZp9qCNoUit0.avif',
             'created_at' => '2026-03-06 16:44:33',
-            'updated_at' => '2026-03-06 20:18:16',
+            'updated_at' => '2026-03-08 15:21:47',
         ),
         66 => 
         array (

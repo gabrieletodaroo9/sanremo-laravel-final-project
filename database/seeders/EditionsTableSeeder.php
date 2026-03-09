@@ -27,9 +27,9 @@ class EditionsTableSeeder extends Seeder
                 'host' => 'Carlo Conti',
                 'co_hosts' => 'Laura Pausini, Can Yaman, Pilar Fogliati, Achille Lauro, Lillo, Irina Shayk, Ubaldo Pantani, Gianluca Gazzoli, Bianca Balti, Alessandro Siani, Giorgia Cardinaletti e Nino Frassica.',
                 'location' => 'Teatro Ariston',
-                'logo_url' => 'editions/logos/3m93LIDmHENXOmP6WvCdi76qn557hWriniRaSEye.png',
+                'logo_url' => 'editions/logos/5BIJdZx6CyYwhsIapi7Glq9YPxhBv7mDDyu3Gs1o.png',
                 'created_at' => '2026-03-04 20:41:10',
-                'updated_at' => '2026-03-04 21:24:30',
+                'updated_at' => '2026-03-08 22:12:16',
             ),
             1 => 
             array (
@@ -49,9 +49,9 @@ class EditionsTableSeeder extends Seeder
                 'host' => 'Amadeus',
                 'co_hosts' => 'Marco Mengoni, Giorgia, Teresa Mannino, Lorella Cuccarini e Fiorello.',
                 'location' => 'Teatro Ariston',
-                'logo_url' => 'editions/logos/qvvJokZe1hGHlWlJKnK7yMG50gvkZIcHJ4IQQ3L6.png',
+                'logo_url' => 'editions/logos/hFwEHX9fHWXPs0aTeWq7AeNxLErQyYVjFdwjuYth.png',
                 'created_at' => '2026-03-04 21:24:02',
-                'updated_at' => '2026-03-04 21:25:55',
+                'updated_at' => '2026-03-08 22:14:36',
             ),
             3 => 
             array (
@@ -60,9 +60,9 @@ class EditionsTableSeeder extends Seeder
                 'host' => 'Amadeus',
                 'co_hosts' => 'Gianni Morandi, Chiara Ferragni, Francesca Fagnani, Paola Egonu e Chiara Francini.',
                 'location' => 'Teatro Ariston',
-                'logo_url' => 'editions/logos/kg9vnobqecMkyJG0mUT5blZ8ruylzwwAaDQtKoRd.png',
+                'logo_url' => 'editions/logos/7jHiE5CUpnN7ySwPnxAejKjl0VRKR3Dn66p9gtQl.png',
                 'created_at' => '2026-03-04 21:27:59',
-                'updated_at' => '2026-03-05 00:35:24',
+                'updated_at' => '2026-03-08 22:15:48',
             ),
             4 => 
             array (

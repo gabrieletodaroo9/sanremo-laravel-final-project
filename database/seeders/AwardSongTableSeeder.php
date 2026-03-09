@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
+
 class AwardSongTableSeeder extends Seeder
 {
 
@@ -305,6 +306,14 @@ class AwardSongTableSeeder extends Seeder
                 'id' => 38,
                 'song_id' => 140,
                 'award_id' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+            ),
+            36 => 
+            array (
+                'id' => 39,
+                'song_id' => 33,
+                'award_id' => 7,
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
