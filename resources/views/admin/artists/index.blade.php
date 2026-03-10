@@ -16,7 +16,7 @@
                 <tr>
                     <th class="py-3 bg-transparent" style="width: 100px;">Foto</th>
                     <th class="py-3 bg-transparent">Nome</th>
-                    <th class="py-3 bg-transparent">Tipo</th>
+                    <th class="py-3 bg-transparent d-none d-lg-table-cell">Tipo</th>
                     <th class="py-3 pe-3 text-end bg-transparent">Azioni</th>
                 </tr>
             </thead>
@@ -41,7 +41,7 @@
                                 {{ $artist->name }}
                             </p>
                         </td>
-                        <td class="py-3 text-secondary text-capitalize bg-transparent">
+                        <td class="py-3 text-secondary text-capitalize bg-transparent d-none d-lg-table-cell">
                             {{ $artist->type }}
                         </td>
                         <td class="py-3 text-end bg-transparent">
