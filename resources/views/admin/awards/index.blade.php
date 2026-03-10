@@ -22,9 +22,9 @@
                 @foreach($awards as $award)
                     <tr class="border-bottom border-secondary-subtle">
                         <td class="py-3 fw-bold bg-transparent">
-                            <p class="text-first text-decoration-none m-0 text-uppercase italic">
+                            <span class="text-first text-uppercase italic">
                                 {{ $award->name }}
-                            </p>
+                            </span>
                         </td>
                         <td class="py-3 text-end bg-transparent">
                             <div class="btn-group gap-3">
@@ -45,12 +45,12 @@
                                 <div class="modal-body p-5 text-center">
                                     <i class="fa-solid fa-circle-exclamation fa-3x text-danger mb-4"></i>
                                     <h4 class="mb-3 text-dark">Eliminare il premio?</h4>
-                                    <p class="text-secondary">Sei sicuro di voler rimuovere <strong>{{ $award->name }}</strong>?<br>
+                                    <p class="text-secondary">Sei sicuro di voler rimuovere <strong>{{ $award->name }}</strong>?</p>
                                     <div class="d-flex justify-content-center gap-2 mt-4">
-                                        <button type="button" class="btn btn-outline-secondary px-4 text-uppercase fw-bold small"
-                                            data-bs-dismiss="modal">Annulla</button>
+                                        <button type="button" class="btn btn-outline-secondary px-4 text-uppercase fw-bold small" data-bs-dismiss="modal">Annulla</button>
                                         <form action="{{ route('admin.awards.destroy', $award) }}" method="POST">
-                                            @csrf @method('DELETE')
+                                            @csrf 
+                                            @method('DELETE')
                                             <button type="submit" class="btn btn-danger px-4 text-uppercase fw-bold small">Elimina</button>
                                         </form>
                                     </div>

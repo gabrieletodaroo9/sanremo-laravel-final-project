@@ -1,6 +1,22 @@
 @import "~bootstrap/scss/bootstrap";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
+// RESET
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// GENERICS
+
+a:hover {
+    scale: 1.01;
+}
+
+// UTILS
+
 .text-first {
     color: #6b8da9 !important ;
 }
@@ -9,11 +25,11 @@
     background-color: #d2d7db !important;
 }
 
+// SCROLLBAR INTERNA FORM
+
 .form-control::placeholder {
     color: #6c757d;
 }
-
-a:hover{scale: 1.01;}
 
 #awards::-webkit-scrollbar,
 #artists::-webkit-scrollbar,

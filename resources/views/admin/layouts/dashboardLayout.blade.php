@@ -17,12 +17,10 @@
         </div>
     </nav>
 
-    <main class="flex-grow-1 d-flex">
-        <div class="container-fluid">
-            <div class="row">
-                @include('admin.partials.sidebar')
-
-                <div class="col-12 col-xl-10 p-0">
+    <main class="flex-grow-1">
+        <div class="container-fluid p-0">
+            <div class="row g-0"> @include('admin.partials.sidebar')
+                <div class="col-12 col-xl-10">
                     @yield('content')
                 </div>
             </div>
