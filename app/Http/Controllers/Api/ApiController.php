@@ -12,12 +12,9 @@ class ApiController extends Controller
 {
     public function index()
     {
-        $editions = Edition::orderBy('year', 'desc')->get();
+        $editions = Edition::orderBy('year', 'desc')->paginate(6);
         
-        return response()->json([
-            "success" => true,
-            "data" => $editions,
-        ]);
+       return response()->json($editions);
     }
 
     public function showEdition($id)
