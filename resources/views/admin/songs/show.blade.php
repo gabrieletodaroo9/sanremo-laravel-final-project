@@ -73,7 +73,7 @@
                             <div class="fs-5 text-first fw-bold italic text-uppercase">
                                 <i class="fa-solid fa-trophy me-1 small opacity-75"></i>
                                 @foreach ($song->awards as $award)
-                                    {{ $award->name }}{{ !$loop->last ? ' , ' : '' }}
+                                    {{ $award->name }}{{ !$loop->last ? ', ' : '' }}
                                 @endforeach
                             </div>
                         </div>
@@ -84,7 +84,7 @@
             <div class="px-2 mt-5">
                 <h5 class="text-uppercase fw-bold text-secondary mb-4 border-bottom border-secondary pb-2">Testo Integrale</h5>
                 <p class="fs-5 lh-lg text-muted opacity-75" style="white-space: pre-line; font-family: 'Georgia', serif;">
-                    {{ $song->lyrics ?? 'Testo non disponibile.' }}
+                    {{ $song->lyrics }}
                 </p>
             </div>
 

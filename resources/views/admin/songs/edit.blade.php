@@ -75,7 +75,7 @@
 
             <div class="col-lg-6">
                 <label for="lyrics" class="form-label small text-secondary text-uppercase fw-bold">Testo della Canzone</label>
-                <textarea name="lyrics" id="lyrics" class="form-control bg-dark text-light border-secondary" style="height: 500px; resize: none;" placeholder="Inserisci qui il testo del brano...">{{ old('lyrics', $song->lyrics) }}</textarea>
+                <textarea name="lyrics" id="lyrics" class="form-control bg-dark text-light border-secondary" style="height: 500px;" placeholder="Inserisci qui il testo del brano...">{{ old('lyrics', $song->lyrics) }}</textarea>
             </div>
         </div>
 

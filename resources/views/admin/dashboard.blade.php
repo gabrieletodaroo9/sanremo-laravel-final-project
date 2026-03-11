@@ -88,16 +88,16 @@
 
                         <div class="list-group list-group-flush overflow-hidden">
                             @if ($searchResultsSongs)
-                                @forelse($searchResultsSongs as $s)
+                                @forelse($searchResultsSongs as $song)
                                     <div class="list-group-item bg-main text-light border-secondary d-flex justify-content-between align-items-center py-2 py-md-3">
                                         <div>
-                                            <span class="text-first fw-bold">{{ $s->title }}</span>
+                                            <span class="text-first fw-bold">{{ $song->title }}</span>
                                             <span class="text-secondary mx-2">|</span>
-                                            <small class="text-secondary italic text-uppercase">Sanremo {{ $s->edition->year }}</small>
+                                            <small class="text-secondary italic text-uppercase">Sanremo {{ $song->edition->year }}</small>
                                         </div>
                                         <div class="d-flex gap-2 gap-md-3">
-                                            <a href="{{ route('admin.songs.show', $s) }}" class="text-secondary hover-first"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="{{ route('admin.songs.edit', $s) }}" class="text-secondary hover-first"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="{{ route('admin.songs.show', $song) }}" class="text-secondary hover-first"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="{{ route('admin.songs.edit', $song) }}" class="text-secondary hover-first"><i class="fa-solid fa-pencil"></i></a>
                                         </div>
                                     </div>
                                 @empty
@@ -106,16 +106,16 @@
                             @endif
 
                             @if ($searchResultsArtists)
-                                @forelse($searchResultsArtists as $a)
+                                @forelse($searchResultsArtists as $artist)
                                     <div class="list-group-item bg-main text-light border-secondary d-flex justify-content-between align-items-center py-2 py-md-3">
                                         <div>
-                                            <span class="text-first fw-bold">{{ $a->name }}</span>
+                                            <span class="text-first fw-bold">{{ $artist->name }}</span>
                                             <span class="text-secondary mx-2">|</span>
-                                            <small class="text-secondary italic text-uppercase">{{ $a->type }}</small>
+                                            <small class="text-secondary italic text-uppercase">{{ $artist->type }}</small>
                                         </div>
                                         <div class="d-flex gap-2 gap-md-3">
-                                            <a href="{{ route('admin.artists.show', $a) }}" class="text-secondary hover-first"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="{{ route('admin.artists.edit', $a) }}" class="text-secondary hover-first"><i class="fa-solid fa-pencil"></i></a>
+                                            <a href="{{ route('admin.artists.show', $artist) }}" class="text-secondary hover-first"><i class="fa-solid fa-eye"></i></a>
+                                            <a href="{{ route('admin.artists.edit', $artist) }}" class="text-secondary hover-first"><i class="fa-solid fa-pencil"></i></a>
                                         </div>
                                     </div>
                                 @empty

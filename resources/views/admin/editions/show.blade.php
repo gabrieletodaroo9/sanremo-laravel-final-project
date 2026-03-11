@@ -29,7 +29,7 @@
 
     @if($edition->logo_url)
         <div class="text-center mb-5">
-            <img src="{{ asset('storage/' . $edition->logo_url) }}" alt="Logo Sanremo {{ $edition->year }}" class="img-fluid" style="max-height: 150px; filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));">
+            <img src="{{ asset('storage/' . $edition->logo_url) }}" alt="Logo Sanremo {{ $edition->year }}" class="img-fluid" style="max-height: 150px;">
         </div>
     @endif
 
@@ -44,7 +44,7 @@
                     </div>
                     <div class="mb-0">
                         <label class="d-block small text-secondary text-uppercase">Co-conduzione</label>
-                        <p class="mb-0 fw-bold fs-6 text-secondary">{{ $edition->co_hosts ?? 'Nessuna co-conduzione registrata' }}</p>
+                        <p class="mb-0 fw-bold fs-6 text-secondary">{{ $edition->co_hosts ?? 'Nessun co-conduttore' }}</p>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                                     
                                     <div class="me-4 d-flex justify-content-center align-items-center {{ $song->position <= 3 ? ' text-warning' : ' text-secondary' }}" 
                                          style="width: 45px; height: 45px; min-width: 45px; font-weight: bold;">
-                                        {{ $song->position ? $song->position . '°' : '-' }}
+                                        {{ $song->position . '°' }}
                                     </div>
                                     
                                     <div class="flex-grow-1">
@@ -77,11 +77,6 @@
                                         </p>
                                     </div>
 
-                                    @if($song->position >= 1 && $song->position <= 3)
-                                        <div class="text-warning ms-3">
-                                            <i class="fa-solid fa-trophy fa-lg"></i>
-                                        </div>
-                                    @endif
                                 </div>
                             @endforeach
                         </div>

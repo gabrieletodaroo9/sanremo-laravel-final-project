@@ -12,7 +12,7 @@
     <div class="d-flex justify-content-between align-items-end mb-5 border-bottom border-secondary pb-4">
         <div>
             <h1 class="display-4 text-first text-uppercase fw-semibold m-0">{{ $artist->name }}</h1>
-            <p class="text-secondary mb-0 text-uppercase small tracking-widest">
+            <p class="text-secondary mb-0 text-uppercase small">
                 <i class="fa-solid fa-microphone-lines me-2"></i>{{ $artist->type }}
             </p>
         </div>
@@ -31,8 +31,8 @@
         <div class="col-lg-10">
 
             @if ($artist->img_url)
-                <div class="mb-5 text-center bg-dark rounded border border-secondary p-2 shadow-sm">
-                    <img src="{{ asset('storage/' . $artist->img_url) }}" alt="{{ $artist->name }}" class="img-fluid rounded-1" style="max-height: 500px; object-fit: contain;">
+                <div class="mb-5 text-center p-2">
+                    <img src="{{ asset('storage/' . $artist->img_url) }}" alt="{{ $artist->name }}" class="img-fluid rounded-1 shadow" style="max-height: 500px; object-fit: contain;">
                 </div>
             @endif
 
@@ -48,7 +48,7 @@
                 
                 @if($artist->songs->count() > 0)
                     <div class="list-group list-group-flush border-top border-secondary-subtle">
-                        @foreach($artist->songs->sortByDesc(fn($song) => $song->edition->year) as $song)
+                        @foreach($artist->songs as $song)
                             <div class="list-group-item bg-transparent border-secondary-subtle py-4 px-0">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="col-md-3 text-md-center mt-2 mt-md-0">
                                         <span class="{{ $song->position <= 3 && $song->position > 0 ? 'text-warning fw-bold' : 'text-secondary' }} text-uppercase small">
-                                            <i class="fa-solid fa-trophy me-2 small"></i>{{ $song->position ? $song->position . '° Posto' : 'N.C.' }}
+                                            <i class="fa-solid fa-trophy me-2 small"></i>{{ $song->position . '° Posto' }}
                                         </span>
                                     </div>
                                     <div class="col-md-3 text-end mt-2 mt-md-0">
@@ -69,8 +69,7 @@
                             </div>
                         @endforeach
                     </div>
-                @else
-                    <p class="text-secondary italic opacity-50">Nessun brano registrato.</p>
+
                 @endif
             </div>
 

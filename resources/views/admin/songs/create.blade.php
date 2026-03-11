@@ -72,7 +72,7 @@
 
             <div class="col-lg-6">
                 <label for="lyrics" class="form-label small text-secondary text-uppercase fw-bold">Testo della Canzone</label>
-                <textarea name="lyrics" id="lyrics" class="form-control bg-dark text-light border-secondary" style="height: 380px; resize: none;" placeholder="Inserisci qui il testo del brano..."></textarea>
+                <textarea name="lyrics" id="lyrics" class="form-control bg-dark text-light border-secondary" style="height: 380px;" placeholder="Inserisci qui il testo del brano..."></textarea>
             </div>
         </div>
 

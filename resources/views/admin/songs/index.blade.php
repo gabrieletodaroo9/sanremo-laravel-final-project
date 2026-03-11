@@ -17,7 +17,7 @@
                     <button class="accordion-button collapsed bg-transparent text-light px-0 py-2 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdition{{ $edition->id }}">
                         <div class="d-flex align-items-center">
                             <div class="rounded-circle bg-dark border border-secondary me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
-                                <span class="fw-bold text-first">{{ substr($edition->year, -2) }}</span>
+                                <span class="fw-bold text-first">{{$edition->year }}</span>
                             </div>
                             <div>
                                 <span class="fw-bold text-first text-uppercase fs-4">Sanremo {{ $edition->year }}</span>
@@ -44,7 +44,7 @@
                                         <tr class="border-bottom border-secondary-subtle">
                                             <td class="py-1 bg-transparent">
                                                 <span class="fw-bold {{ $song->position <= 3 && $song->position > 0 ? 'text-warning' : 'text-secondary' }}">
-                                                    {{ $song->position ? $song->position . '°' : '-' }}
+                                                    {{ $song->position . '°' }}
                                                 </span>
                                             </td>
                                             <td class="py-3 bg-transparent">

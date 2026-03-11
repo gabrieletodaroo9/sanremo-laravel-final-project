@@ -19,8 +19,8 @@
     @vite(['resources/js/app.js'])
 </head>
 
-<body>
-    <div id="app">
+<body class="h-100">
+    <div id="app" class="d-flex flex-column min-vh-100">
 
 
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
@@ -79,7 +79,7 @@
             </div>
         </nav>
 
-        <main class="">
+        <main class="bg-main flex-grow-1">
             @yield('content')
         </main>
     </div>
