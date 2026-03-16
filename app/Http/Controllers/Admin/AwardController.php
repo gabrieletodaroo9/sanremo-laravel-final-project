@@ -60,7 +60,7 @@ class AwardController extends Controller
     public function update(Request $request, Award $award)
     {
         $award->name = $request->name;
-        $award->save();
+        $award->update();
 
         return redirect()->route('admin.awards.index');
     }

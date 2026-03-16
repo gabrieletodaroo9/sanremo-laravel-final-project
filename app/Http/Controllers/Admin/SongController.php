@@ -97,7 +97,7 @@ class SongController extends Controller
         $song->lyrics = $data["lyrics"];
         $song->collaborators = $data['collaborators'] ?? null;
 
-        $song->save();
+        $song->update();
 
         $song->artists()->sync($data["artists"] ?? []);
         $song->awards()->sync($data["awards"] ?? []);

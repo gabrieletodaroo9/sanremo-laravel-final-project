@@ -18,7 +18,7 @@ class DashboardController extends Controller
     $artistsCount = Artist::count();
     $awardsCount = Award::count();
     $editionsCount = Edition::count();
-    $latestSongs = Song::orderBy('created_at', 'desc')->take(3)->get();
+    // $latestSongs = Song::orderBy('created_at', 'desc')->take(3)->get();
 
     $searchResultsSongs = null;
     $searchResultsArtists = null;
@@ -29,7 +29,7 @@ class DashboardController extends Controller
         $searchResultsArtists = Artist::where('name', 'LIKE', "%{$request->search_artist}%")->get();
     }
 
-    return view('admin.dashboard', compact('songsCount', 'artistsCount', 'awardsCount', 'editionsCount', 'latestSongs','searchResultsSongs', 'searchResultsArtists'));
+    return view('admin.dashboard', compact('songsCount', 'artistsCount', 'awardsCount', 'editionsCount','searchResultsSongs', 'searchResultsArtists'));
 }
 
     public function profile()

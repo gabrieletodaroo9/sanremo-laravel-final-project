@@ -81,7 +81,7 @@ class ArtistController extends Controller
             $artist->img_url = $img_url;
         }
 
-        $artist->save();
+        $artist->update();
 
         return redirect()->route('admin.artists.index');
     }
