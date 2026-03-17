@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('editions', function (Blueprint $table) {
            $table->id();
-        $table->integer('year')->unique();
-        $table->string('host');            
-        $table->string('co_hosts')->nullable();
-        $table->string('location')->default('Teatro Ariston');
-        $table->timestamps();
+           $table->integer('year')->unique();
+           $table->string('host');            
+           $table->string('co_hosts')->nullable();
+           $table->string('location')->default('Teatro Ariston');
+           $table->timestamps();
         });
     }
 

@@ -9,7 +9,7 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('/editions', [ApiController::class, 'index']);
-Route::get('/editions/{id}', [ApiController::class, 'showEdition']);
-Route::get('/artists/{id}', [ApiController::class, 'showArtist']);
-Route::get('/songs/{id}', [ApiController::class, 'showSong']);
+Route::get('/editions/{edition}', [ApiController::class, 'showEdition']);
+Route::get('/artists/{artist}', [ApiController::class, 'showArtist']);
+Route::get('/songs/{song}', [ApiController::class, 'showSong']);
 Route::get('/songs', [ApiController::class, 'showSongs']);
